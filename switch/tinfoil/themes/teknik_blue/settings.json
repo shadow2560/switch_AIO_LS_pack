@@ -1,0 +1,55 @@
+{
+  "color": "ffffffff",
+  "logo": "sdmc:/switch/tinfoil/themes/teknik_blue/logo.png",
+  "background": {
+    "color": 0,
+    "image": "sdmc:/switch/tinfoil/themes/teknik_blue/bg.jpg"
+  },
+  "selection": {
+    "color": "FFFFFFFF",
+    "background": {
+      "color": "0CCEB6ff"
+    },
+    "border": {
+      "color": "0E284Dff",
+      "width": 1
+    }
+  },
+  "menu": {
+    "selection": {
+      "color": "0CCEB6ff",
+      "background": {
+        "color": "0E284Dff"
+      },
+      "border": {
+        "color": "ffffffff",
+        "width": 0
+      }
+    },
+    "background": {
+      "color": "0E284Dff"
+    }
+  },
+  "border": {
+    "color": "0E284Dff",
+    "width": 1
+  },
+  "progressBar": {
+    "color": "0CCEB6ff",
+    "background": {
+      "color": "1B2235ff"
+    },
+    "width": 1
+  },
+  "scrollBar": {
+    "color": "1B2235ff",
+    "background": {
+      "color": "0CCEB6FF"
+    },
+    "width": 1
+  },
+  "music": {
+    "url": "sdmc:/switch/tinfoil/themes/teknik_default/music.mp3",
+    "volume": 10
+  }
+}

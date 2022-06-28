@@ -1,0 +1,8 @@
+# 90dns redirection
+127.0.0.1 *nintendo*
+
+# Nintendo telemetry servers
+127.0.0.1 receive-%.dg.srv.nintendo.net receive-%.er.srv.nintendo.net
+
+# 90dns server for passing wifi connection test, replace the IP with your own if you host the server by yourself
+95.216.149.205 conntest.nintendowifi.net ctest.cdn.nintendo.net

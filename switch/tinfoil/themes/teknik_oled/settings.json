@@ -1,0 +1,55 @@
+{
+  "color": "ffffffff",
+  "logo": "sdmc:/switch/tinfoil/themes/teknik_oled/logo.png",
+  "background": {
+    "color": "030303b0",
+    "image": "sdmc:/switch/tinfoil/themes/teknik_oled/bg.jpg"
+  },
+  "selection": {
+    "color": "58ccb5ff",
+    "background": {
+      "color": "212121ff"
+    },
+    "border": {
+      "color": "77c8c2ff",
+      "width": 4
+    }
+  },
+  "menu": {
+    "selection": {
+      "color": "58ccb5ff",
+      "background": {
+        "color": "212121ff"
+      },
+      "border": {
+        "color": "77c8c2ff",
+        "width": 4
+      }
+    },
+    "background": {
+      "color": "00000000"
+    }
+  },
+  "border": {
+    "color": "ffffffff",
+    "width": 1
+  },
+  "progressBar": {
+    "color": "77c8c2ff",
+    "background": {
+      "color": "ddddddff"
+    },
+    "width": 1
+  },
+  "scrollBar": {
+    "color": "5c5c5cff",
+    "background": {
+      "color": "404040ff"
+    },
+    "width": 1
+  },
+  "music": {
+    "url": "sdmc:/switch/tinfoil/themes/teknik_oled/music.mp3",
+    "volume": 10
+  }
+}
