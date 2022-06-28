@@ -57,14 +57,8 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/nadrino/SimpleModManager">SimpleModManager</a></li>
 <li><a target="_blank" href="https://github.com/masagrator/Status-Monitor-Overlay">Status-Monitor-Overlay</a></li>
 </ul>
-<h1>Installation</h1>
+<h1>Installation et mise à jour</h1>
 &nbsp;
 <p>
-Télécharger la dernière version du pack sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> puis exécuter l'archive auto-extractible à la racine de la SD ou dézipper l'archive à la racine de la SD.
-</p>
-&nbsp;
-<h1>Mise à jour</h1>
-&nbsp;
-<p>
-Télécharger puis exécuter le script de nettoyage de la SD disponible également sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> puis suivre les instructions d'installation.
+Télécharger puis exécuter le script de nettoyage de la SD disponible sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> puis télécharger et exécuter l'archive auto-extractible également disponible sur la même page pour l'extraire à la racine de la SD.
 </p>
