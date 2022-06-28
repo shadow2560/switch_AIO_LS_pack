@@ -1,7 +1,7 @@
 <h1>Switch_AIO_LS_pack</h1>
 &nbsp;
 <p>
-Ce pack comprends tout se qu'il faut pour préparer la SD de la switch. Vous y trouverez le CFW, des homebrews, payloads et modules importants pour utiliser votre console au mieux. Il a été préparé en utilisant le projet <a target="_blank" href="https://github.com/shadow2560/Ultimate-Switch-Hack-Script">Ultimate-Switch-Hack-Script</a> et a été réalisé en collaboration avec l'utilisateur <a target="_blank" href="http://www.logic-sunrise.com/forums/user/59314-nightwolf">nightwolf</a> de <a target="_blank" href="http://www.logic-sunrise.com">Logic-sunrise</a>.
+Ce pack comprends tout se qu'il faut pour préparer la SD de la switch. Vous y trouverez le CFW, des homebrews, payloads et modules importants pour utiliser votre console au mieux; il contient également le dernier firmware. Il a été préparé en utilisant le projet <a target="_blank" href="https://github.com/shadow2560/Ultimate-Switch-Hack-Script">Ultimate-Switch-Hack-Script</a> et a été réalisé en collaboration avec l'utilisateur <a target="_blank" href="http://www.logic-sunrise.com/forums/user/59314-nightwolf">nightwolf</a> de <a target="_blank" href="http://www.logic-sunrise.com">Logic-sunrise</a>.
 <br/><br/>
 Ce pack fonctionne pour tous les modèles de Switch.
 </p>
@@ -60,5 +60,5 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <h1>Installation et mise à jour</h1>
 &nbsp;
 <p>
-Télécharger puis exécuter le script de nettoyage de la SD disponible sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> puis télécharger et exécuter l'archive auto-extractible également disponible sur la même page pour l'extraire à la racine de la SD.
+Télécharger puis exécuter le script de nettoyage de la SD disponible sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> en lui indiquant la lettre de la SD lorsqu'il le demandera puis télécharger et exécuter l'archive auto-extractible également disponible sur la même page pour l'extraire à la racine de la SD.
 </p>
