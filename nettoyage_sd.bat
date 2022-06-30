@@ -36,6 +36,7 @@ IF EXIST "%volume_letter%\atmosphere\contents\0100000000000034\*.*" rmdir /s /q 
 IF EXIST "%volume_letter%\atmosphere\contents\0100000000000036\*.*" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000036"
 IF EXIST "%volume_letter%\atmosphere\contents\0100000000000037\*.*" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000037"
 IF EXIST "%volume_letter%\atmosphere\contents\0100000000000042\*.*" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000042"
+IF EXIST "%volume_letter%\nettoyage_sd.bat" del /q "%volume_letter%\nettoyage_sd.bat"
 IF EXIST "%volume_letter%\atmosphere\BCT.ini" del /q "%volume_letter%\atmosphere\BCT.ini"
 IF EXIST "%volume_letter%\atmosphere\loader.ini" del /q "%volume_letter%\atmosphere\loader.ini"
 IF EXIST "%volume_letter%\atmosphere\system_settings.ini" del /q "%volume_letter%\atmosphere\system_settings.ini"
