@@ -72,6 +72,11 @@ IF EXIST "%volume_letter%\bootloader\hekate_ipl.ini.old" del /q "%volume_letter%
 IF EXIST "%volume_letter%\switch\DeepSea-Updater\DeepSeaUpdater.nro" del /q "%volume_letter%\switch\DeepSea-Updater\DeepSeaUpdater.nro" >nul 2>&1
 IF EXIST "%volume_letter%\switch\ChoiDuJourNX" rmdir /s /q "%volume_letter%\switch\ChoiDuJourNX"
 IF EXIST "%volume_letter%\switch\ChoiDuJourNX.nro" del /q "%volume_letter%\switch\ChoiDuJourNX.nro" >nul
+IF EXIST "%volume_letter%\nsp_forwaders" rmdir /s /q "%volume_letter%\nsp_forwaders"
+IF EXIST "%volume_letter%\readme.html" del /q "%volume_letter%\readme.html" >nul
+IF EXIST "%volume_letter%\readme.md" del /q "%volume_letter%\readme.md" >nul
+IF EXIST "%volume_letter%\bootloader\bootlogo.bmp" del /q "%volume_letter%\bootloader\bootlogo.bmp" >nul
+
 echo.
 echo Nettoyage terminé, vous pouvez maintenant installer le pack Switch_AIO_LS_pack sur votre SD.
 echo.
