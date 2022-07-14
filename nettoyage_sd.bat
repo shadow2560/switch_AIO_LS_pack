@@ -76,7 +76,14 @@ IF EXIST "%volume_letter%\nsp_forwaders" rmdir /s /q "%volume_letter%\nsp_forwad
 IF EXIST "%volume_letter%\readme.html" del /q "%volume_letter%\readme.html" >nul
 IF EXIST "%volume_letter%\readme.md" del /q "%volume_letter%\readme.md" >nul
 IF EXIST "%volume_letter%\bootloader\bootlogo.bmp" del /q "%volume_letter%\bootloader\bootlogo.bmp" >nul
-
+set /p theme_delete=Souhaitez-vous supprimer le thème du menu principal (à faire avant de mettre à jour le firmware)? (o/n): 
+if /i "%theme_delete:~0,1%" == "o" (
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001000" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001000"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001013" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001013"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001007" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001007"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000811" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000811"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000039" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000039"
+)
 echo.
 echo Nettoyage terminé, vous pouvez maintenant installer le pack Switch_AIO_LS_pack sur votre SD.
 echo.
