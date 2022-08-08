@@ -76,6 +76,7 @@ IF EXIST "%volume_letter%\nsp_forwaders" rmdir /s /q "%volume_letter%\nsp_forwad
 IF EXIST "%volume_letter%\readme.html" del /q "%volume_letter%\readme.html" >nul
 IF EXIST "%volume_letter%\readme.md" del /q "%volume_letter%\readme.md" >nul
 IF EXIST "%volume_letter%\bootloader\bootlogo.bmp" del /q "%volume_letter%\bootloader\bootlogo.bmp" >nul
+IF EXIST "%volume_letter%\nsp_forwarders\Tinfoil V14.nsp" del /q "%volume_letter%\nsp_forwarders\Tinfoil V14.nsp" >nul
 IF EXIST "%volume_letter%\Firmware 14.1.2" rmdir /s /q "%volume_letter%\Firmware 14.1.2"
 IF EXIST "%volume_letter%\dernier_firmware_compatible" rmdir /s /q "%volume_letter%\dernier_firmware_compatible"
 set /p theme_delete=Souhaitez-vous supprimer le thème du menu principal (à faire avant de mettre à jour le firmware)? (o/n): 
