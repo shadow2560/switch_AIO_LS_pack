@@ -431,7 +431,7 @@ flash_prodinfogen_fnc = {
 			println("Tentative de flash du PRODINFO de l'emunand effectuée.")
 			color(0xFFFFFF)
 		}
-	} else() {
+	} .else() {
 		color(0xFF0000)
 		println("Le fichier à restauré n'a pas été trouvé.")
 		color(0xFFFFFF)
