@@ -5,8 +5,9 @@
 
 wait={t=timer()while(timer()<(t+tw)){print("Wait for",(t+tw-timer()/1000),"seconds \r")}}
 
-main_menu_options = ["Quitter sans rien faire", "Redémarrer en OFW", "Sauvegarder BOOT0, BOOT1, PRODINFO et PRODINFOF", "Restaurer avec suppression de données", "Restaurer sans suppression de données", "Restaurer seulement les partitions BOOT0, BOOT1 et BCPKG2-*", "Supprimer le contrôle parental", "Supprimer la sauvegarde de Erpt (peut corriger l'erreur 0xffe du Title ID 010000000000002b d'Atmosphere)", "Réinitialiser la console", "Passer   la première configuration (non fonctionnel pour l'instant)", "Copier les paramètres de synchronisation des manettes de la SYSNAND vers l'EMUNAND (fonction en beta)", "Migrer l'emunand (fonctions en alpha test)", "Switcher le travail du script entre SYSNAND et EMUNAND"]
+main_menu_options = ["Quitter sans rien faire", "Redémarrer en OFW", "Sauvegarder BOOT0, BOOT1, PRODINFO et PRODINFOF", "Restaurer avec suppression de données", "Restaurer sans suppression de données", "Restaurer seulement les partitions BOOT0, BOOT1 et BCPKG2-*", "Supprimer le contrôle parental", "Supprimer la sauvegarde de Erpt (peut corriger l'erreur 0xffe du Title ID 010000000000002b d'Atmosphere)", "Réinitialiser la console", "Passer   la première configuration (non fonctionnel pour l'instant)", "Copier les paramètres de synchronisation des manettes de la SYSNAND vers l'EMUNAND (fonction en beta)", "Migrer l'emunand (fonctions en alpha test)", "Flasher un PRODINFO créé via ProdinfoGen", "Switcher le travail du script entre SYSNAND et EMUNAND"]
 migrate_emunand_menu_options = ["Revenir au menu principal", "Rendre compatible l'emunand via partition de SXOS avec Atmosphere", "Convertir l'emunand via fichiers de SXOS pour Atmosphere", "Inverser la convertion de l'emunand via fichiers de SXOS pour Atmosphere"]
+flash_prodinfogen_options = ["Revenir au menu principal", "Flasher le PRODINFO from scratch", "Flasher le PRODINFO from donor"]
 explorer_menu_static_options = ["Revenir au menu principal", "Utiliser ce répertoire", "Revenir à la racine de la SD", "Remonter d'un répertoire"]
 
 clearLine = "                                                                              "
@@ -376,6 +377,64 @@ invert_emunand_files_sxos_for_atmosphere = {
 		println("Appuyer sur une touche pour fermer le script.")
 		pause()
 		exit()
+	}
+}
+
+flash_prodinfogen_choice = {
+	clear()
+	println("Flash d'un PRODINFO de ProdinfoGen")
+	println("")
+	println("Attention, faire un backup de PRODINFO avant de flasher.")
+	println("")
+	println("Sélectionner quoi faire.")
+	println("")
+	println("")
+	printpos(0, 39)
+	println("HAUT/BAS/VOL+/VOL- : se déplacer | A/POWER : Valider")
+	printpos(0, 10)
+	selection = menu(flash_prodinfogen_options, 0)
+	selection = selection + 1
+}
+
+flash_prodinfogen_menu = {
+	while (1) {
+		flash_prodinfogen_choice()
+		if (selection == 1){
+			break()
+		}
+		if (selection == 2){
+			flash_prodinfogen_fnc(prodinfogen_path = "switch/generated_prodinfo_from_scratch.bin")
+			break()
+		}
+		if (selection == 3){
+			flash_prodinfogen_fnc(prodinfogen_path = "switch/generated_prodinfo_from_donor.bin")
+			break()
+		}
+	}
+}
+
+flash_prodinfogen_fnc = {
+	clear()
+	RESULT = fsexists(prodinfogen_path)
+	if (RESULT){
+		println("Début du flash...")
+		println("")
+		if (mmcTypeWork == 0){
+			emmcwrite(prodinfogen_path, "PRODINFO")
+			color(0xFF0000)
+			println("Tentative de flash du PRODINFO de la sysnand effectuée.")
+			color(0xFFFFFF)
+		}
+		if (mmcTypeWork == 1){
+			emummcwrite(prodinfogen_path, "PRODINFO")
+			color(0xFF0000)
+			println("Tentative de flash du PRODINFO de l'emunand effectuée.")
+			color(0xFFFFFF)
+		}
+	} else() {
+		color(0xFF0000)
+		println("Le fichier à restauré n'a pas été trouvé.")
+		color(0xFFFFFF)
 	}
 }
 
@@ -1042,6 +1101,9 @@ while (1) {
 		migrate_emunand_menu()
 	}
 	if (main_action == 13){
+		flash_prodinfogen_menu()
+	}
+	if (main_action == 14){
 		switch_working_nand()
 	}
 }
