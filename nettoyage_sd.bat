@@ -79,6 +79,7 @@ IF EXIST "%volume_letter%\bootloader\bootlogo.bmp" del /q "%volume_letter%\bootl
 IF EXIST "%volume_letter%\nsp_forwarders\Tinfoil V14.nsp" del /q "%volume_letter%\nsp_forwarders\Tinfoil V14.nsp" >nul
 IF EXIST "%volume_letter%\Firmware 14.1.2" rmdir /s /q "%volume_letter%\Firmware 14.1.2"
 IF EXIST "%volume_letter%\dernier_firmware_compatible" rmdir /s /q "%volume_letter%\dernier_firmware_compatible"
+echo.
 set /p theme_delete=Souhaitez-vous supprimer le thème du menu principal (à faire avant de mettre à jour le firmware)? (o/n): 
 if /i "%theme_delete:~0,1%" == "o" (
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001000" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001000"
@@ -86,6 +87,35 @@ if /i "%theme_delete:~0,1%" == "o" (
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001007" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001007"
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000811" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000811"
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000039" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000039"
+)
+echo.
+set /p modules_delete=Souhaitez-vous supprimer les modules d'Atmosphere (supprimera les modules les plus connus du dossier "atmosphere\contents" ainsi que certains autres fichiers pouvant être problématiques, à faire avant de mettre à jour le firmware si vous utilisez des modules ou si vous venez d'un autre pack)? (o/n): 
+if /i "%modules_delete:~0,1%" == "o" (
+	IF EXIST "%volume_letter%\atmosphere\contents\00FF0000000002AA" rmdir /s /q "%volume_letter%\atmosphere\contents\00FF0000000002AA"
+	IF EXIST "%volume_letter%\atmosphere\contents\054e4f4558454000" rmdir /s /q "%volume_letter%\atmosphere\contents\054e4f4558454000"
+	IF EXIST "%volume_letter%\atmosphere\contents\010000000000000D" rmdir /s /q "%volume_letter%\atmosphere\contents\010000000000000D"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001013" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001013"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000352" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000352"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000F12" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000F12"
+	IF EXIST "%volume_letter%\atmosphere\contents\010000000000CF12" rmdir /s /q "%volume_letter%\atmosphere\contents\010000000000CF12"
+	IF EXIST "%volume_letter%\atmosphere\contents\010000000000C235" rmdir /s /q "%volume_letter%\atmosphere\contents\010000000000C235"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000faf" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000faf"
+	IF EXIST "%volume_letter%\atmosphere\contents\4200000000000010" rmdir /s /q "%volume_letter%\atmosphere\contents\4200000000000010"
+	IF EXIST "%volume_letter%\atmosphere\contents\010000000000bd00" rmdir /s /q "%volume_letter%\atmosphere\contents\010000000000bd00"
+	IF EXIST "%volume_letter%\atmosphere\exefs_patches\bluetooth_patches" rmdir /s /q "%volume_letter%\atmosphere\exefs_patches\bluetooth_patches"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000081" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000081"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000901" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000901"
+	IF EXIST "%volume_letter%\atmosphere\contents\0000000000534C56" rmdir /s /q "%volume_letter%\atmosphere\contents\0000000000534C56"
+	IF EXIST "%volume_letter%\atmosphere\contents\420000000000000F" rmdir /s /q "%volume_letter%\atmosphere\contents\420000000000000F"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000464" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000464"
+	IF EXIST "%volume_letter%\atmosphere\contents\430000000000000B" rmdir /s /q "%volume_letter%\atmosphere\contents\430000000000000B"
+	IF EXIST "%volume_letter%\atmosphere\contents\00FF0000636C6BFF" rmdir /s /q "%volume_letter%\atmosphere\contents\00FF0000636C6BFF"
+	IF EXIST "%volume_letter%\atmosphere\contents\690000000000000D" rmdir /s /q "%volume_letter%\atmosphere\contents\690000000000000D"
+	IF EXIST "%volume_letter%\atmosphere\contents\420000000000000E" rmdir /s /q "%volume_letter%\atmosphere\contents\420000000000000E"
+	IF EXIST "%volume_letter%\atmosphere\contents\43000000000000ff" rmdir /s /q "%volume_letter%\atmosphere\contents\43000000000000ff"
+	IF EXIST "%volume_letter%\atmosphere\contents\4200000000000000" rmdir /s /q "%volume_letter%\atmosphere\contents\4200000000000000"
+	IF EXIST "%volume_letter%\atmosphere\contents\4200000000000FFF" rmdir /s /q "%volume_letter%\atmosphere\contents\4200000000000FFF"
+	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001000" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001000"
 )
 echo.
 echo Nettoyage terminé, vous pouvez maintenant installer le pack Switch_AIO_LS_pack sur votre SD.
