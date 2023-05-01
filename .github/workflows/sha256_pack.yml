@@ -22,6 +22,7 @@ jobs:
           git config --global user.name 'shadow2560_bot'
           git config --global user.email '24191064+shadow2560@users.noreply.github.com'
           CHANGED=$(git diff --name-only)
+          git pull
           git add .
           if [[ `git status --porcelain` ]]; then
             git commit -m "automatic: Mise à jour du sha256 du pack"
