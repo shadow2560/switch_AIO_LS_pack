@@ -1,0 +1,31 @@
+name: make_sha256_pack
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '/sha256**.txt'
+      - '/readme.md'
+      - '/nettoyage_sd.bat'
+      - '/.github/**'
+      - '.gitignore'
+jobs:
+  sha256:
+    name: sha256
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create zip sha256
+        run: curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
+      - name: push changes
+        run: |
+          git config --global user.name 'shadow2560_bot'
+          git config --global user.email '24191064+shadow2560@users.noreply.github.com'
+          CHANGED=$(git diff --name-only)
+          git add .
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "automatic: Mise à jour du sha256 du pack"
+            git push
+          else
+            echo "Nothing to commit!"
+          fi
