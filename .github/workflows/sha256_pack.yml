@@ -16,7 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create zip sha256
-        run: curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
+        run: curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
+        # run: curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
       - name: push changes
         run: |
           git config --global user.name 'shadow2560_bot'
