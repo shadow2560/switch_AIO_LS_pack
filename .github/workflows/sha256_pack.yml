@@ -8,7 +8,7 @@ on:
       - '/readme.md'
       - '/nettoyage_sd.bat'
       - '/.github/**'
-      - '.gitignore'
+      - '/.gitignore'
 jobs:
   sha256:
     name: sha256
