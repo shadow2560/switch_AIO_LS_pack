@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create zip sha256
+        git pull
         run: curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
         # run: curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 > sha256_pack.txt
       - name: push changes
@@ -23,7 +24,6 @@ jobs:
           git config --global user.name 'shadow2560_bot'
           git config --global user.email '24191064+shadow2560@users.noreply.github.com'
           CHANGED=$(git diff --name-only)
-          git pull
           git add .
           if [[ `git status --porcelain` ]]; then
             git commit -m "automatic: Mise à jour du sha256 du pack"

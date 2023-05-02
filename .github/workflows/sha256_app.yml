@@ -12,13 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create nro sha256
+        git pull
         run: curl -sL "${{ github.server_url }}/${{ github.repository }}/raw/main/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro" | shasum -a 256 | cut -d " " -f 1 > sha256_AIO_LS_pack_Updater.txt
       - name: push changes
         run: |
           git config --global user.name 'shadow2560_bot'
           git config --global user.email '24191064+shadow2560@users.noreply.github.com'
           CHANGED=$(git diff --name-only)
-          git pull
           git add .
           if [[ `git status --porcelain` ]]; then
             git commit -m "automatic: Mise à jour du sha256 de AIO_LS_pack_Updater"
