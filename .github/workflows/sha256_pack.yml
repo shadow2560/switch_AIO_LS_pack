@@ -1,0 +1,20 @@
+name: make_sha256_pack
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '/sha256**.txt'
+      - '/readme.md'
+      - '/nettoyage_sd.bat'
+      - '/.github/**'
+      - '/.gitignore'
+jobs:
+  sha256:
+    name: sha256
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create zip sha256
+        run: |
+          curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 | echo
+          # curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1 | echo
