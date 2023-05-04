@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - '/sha256**.txt'
+      - '/sha256_pack_beta.txt'
       - '/readme.md'
       - '/nettoyage_sd.bat'
       - '/.github/**'
