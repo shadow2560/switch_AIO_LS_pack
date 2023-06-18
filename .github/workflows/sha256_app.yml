@@ -5,6 +5,11 @@ on:
       - main
     paths:
       - 'switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
+  workflow_dispatch:
+    branches:
+      - main
+    paths:
+      - 'switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
 jobs:
   sha256:
     name: sha256
@@ -24,6 +29,9 @@ jobs:
           if [[ `git status --porcelain` ]]; then
             git commit -m "automatic: Mise à jour du sha256 de AIO_LS_pack_Updater"
             git push
+            git pull
+            echo New SHA256 of the pack: 
+            curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1
           else
             echo "Nothing to commit!"
           fi

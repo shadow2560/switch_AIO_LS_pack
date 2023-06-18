@@ -8,6 +8,16 @@ on:
       - '/nettoyage_sd.bat'
       - '/.github/**'
       - '/.gitignore'
+      - '/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
+  workflow_dispatch:
+    branches:
+      - main
+    paths-ignore:
+      - '/readme.md'
+      - '/nettoyage_sd.bat'
+      - '/.github/**'
+      - '/.gitignore'
+      - '/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
 jobs:
   sha256:
     name: sha256
@@ -15,5 +25,6 @@ jobs:
     steps:
       - name: Create zip sha256
         run: |
+          echo New SHA256 of the pack: 
           curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1
           # curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1
