@@ -12,12 +12,6 @@ on:
   workflow_dispatch:
     branches:
       - main
-    paths-ignore:
-      - '/readme.md'
-      - '/nettoyage_sd.bat'
-      - '/.github/**'
-      - '/.gitignore'
-      - '/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
 jobs:
   sha256:
     name: sha256

@@ -8,8 +8,6 @@ on:
   workflow_dispatch:
     branches:
       - main
-    paths:
-      - 'switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
 jobs:
   sha256:
     name: sha256
