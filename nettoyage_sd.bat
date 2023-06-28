@@ -97,7 +97,13 @@ if /i "%modules_delete:~0,1%" == "o" (
 )
 :delete_modules
 for /d %%i in ("%volume_letter%\atmosphere\contents\*") do (
-	IF EXIST "%%i\exefs.nsp" rmdir /s /q "%%i"
+	IF EXIST "%%i\exefs.nsp" (
+		rmdir /s /q "%%i"
+	)
+	if "%%i" == "%volume_letter%\atmosphere\contents\010000000000bd00" (
+		rmdir /s /q ""%volume_letter%\atmosphere\exefs_patches\bluetooth_patches"
+		rmdir /s /q ""%volume_letter%\atmosphere\exefs_patches\btm_patches"
+	)
 )
 :skip_delete_modules
 echo.
