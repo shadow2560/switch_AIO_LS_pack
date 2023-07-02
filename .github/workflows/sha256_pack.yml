@@ -1,10 +1,8 @@
-name: make_sha256_pack
+name: make_sha256_app
 on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro'
   workflow_dispatch:
     branches:
       - main
@@ -13,8 +11,23 @@ jobs:
     name: sha256
     runs-on: ubuntu-latest
     steps:
-      - name: Create zip sha256
+      - uses: actions/checkout@v3
+      - name: Create nro sha256
         run: |
+          git pull
+          curl -sL "${{ github.server_url }}/${{ github.repository }}/raw/main/switch/AIO_LS_pack_Updater/AIO_LS_pack_Updater.nro" | shasum -a 256 | cut -d " " -f 1 > sha256_AIO_LS_pack_Updater.txt
+      - name: push changes
+        run: |
+          git config --global user.name 'shadow2560_bot'
+          git config --global user.email '24191064+shadow2560@users.noreply.github.com'
+          CHANGED=$(git diff --name-only)
+          git add .
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "automatic: Mise à jour du sha256 de AIO_LS_pack_Updater"
+            git push
+          else
+            echo "Nothing to commit!"
+          fi
+          git pull
           echo New SHA256 of the pack: 
           curl -sL "https://github.com/shadow2560/switch_AIO_LS_pack/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1
-          # curl -sL "${{ github.server_url }}/${{ github.repository }}/archive/refs/heads/main.zip" | shasum -a 256 | cut -d " " -f 1
