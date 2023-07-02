@@ -1,4 +1,4 @@
-name: make_sha256_app
+name: make_sha256_pack
 on:
   push:
     branches:
