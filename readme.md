@@ -42,6 +42,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/suchmememanyskill/Payload_Launcher">Payload_Launcher</a></li>
 <li><a target="_blank" href="https://github.com/Cpasjuste/pplay">Pplay</a></li>
 <li><a target="_blank" href="https://github.com/ITotalJustice/Reset-Parental-Controls-NX">Reset-Parental-Controls-NX</a></li>
+<li><a target="_blank" href="https://github.com/PoloNX/SimpleModDownloader">SimpleModDownloader</a></li>
 <li><a target="_blank" href="https://github.com/nadrino/SimpleModManager">SimpleModManager</a></li>
 <li><a target="_blank" href="https://github.com/meganukebmp/Switch_90DNS_tester">Switch_90DNS_tester</a></li>
 <li><a target="_blank" href="https://github.com/suchmememanyskill/switch-90dns-setter">Switch-90dns-setter</a></li>
