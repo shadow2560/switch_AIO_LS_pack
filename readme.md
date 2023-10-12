@@ -18,7 +18,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/hwfly-nx/">Le projet HWFly</a></li>
 <li><a target="_blank" href="https://github.com/Ansem-SoD/Picofly">Les fichiers pour le Picofly</a>, voir aussi <a target="_blank" href="https://gbatemp.net/threads/picofly-aio-thread.628951/">ce sujet sur GBATemp</a> et <a target="_blank" href="https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/page-78#post-10090767">ce poste pouur voir les mises à jour pour les fichiers du Picofly</a></li>
 <li><a target="_blank" href="https://github.com/mistervampi/Incognito_RCM">Incognito_RCM</a></li>
-<li><a target="_blank" href="https://github.com/shchmue/Lockpick_RCM">Lockpick-RCM</a></li>
+<li><a target="_blank" href="https://vps.suchmeme.nl/git/mudkip/Lockpick_RCM">Lockpick-RCM</a></li>
 <li><a target="_blank" href="https://github.com/CaramelDunes/prodinfo_gen/">Prodinfo_gen</a></li>
 <li><a target="_blank" href="https://github.com/suchmememanyskill/TegraExplorer">TegraExplorer</a></li>
 <li><a target="_blank" href="https://github.com/GaryOderNichts/udpih_nxpayload/">Udpih_nxpayload</a>, un payload utile pour lancer le <a target="_blank" href="https://github.com/GaryOderNichts/recovery_menu/">Recovery Menu</a> avec <a target="_blank" href="https://github.com/GaryOderNichts/udpih/">l'exploit Udpih</a> pour la Wii U.</li>
