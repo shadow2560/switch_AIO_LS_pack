@@ -591,6 +591,8 @@ wip_console_data = {
 	clear()
 	println("Réinitialisation de la console")
 	println("")
+println("Notez que si vous mettez à jour en firmware 17.0.0 et supérieurs après avoir exécuté ceci vous devrez lancer au moins une fois Atmosphere sur la nand sur l'un de ces firmwares pour pouvoir à nouveau les lancer.")
+println("")
 	println("Appuyez sur Vol+ pour confirmer la suppression des données ou appuyez sur n'importe quelle autre touche pour revenir au menu")
 	println("")
 	verif_key = pause()
@@ -992,6 +994,8 @@ choidujour_package_restore = {
 				if (return_code != 1){
 					color(0xFF0000)
 					println("Attention: Toutes les données de la nand seront perdues")
+					println("")
+					println("Notez que si vous mettez à jour en firmware 17.0.0 et supérieurs après avoir exécuté ceci vous devrez lancer au moins une fois Atmosphere sur la nand sur l'un de ces firmwares pour pouvoir à nouveau les lancer.")
 					color(0xFFFFFF)
 					println("")
 					println("Appuyez sur VOL+ pour confirmer ou sur n'importe quelle autre touche pour revenir au menu.")
