@@ -80,7 +80,7 @@ IF EXIST "%volume_letter%\nsp_forwarders\Tinfoil V14.nsp" del /q "%volume_letter
 IF EXIST "%volume_letter%\Firmware 14.1.2" rmdir /s /q "%volume_letter%\Firmware 14.1.2"
 IF EXIST "%volume_letter%\dernier_firmware_compatible" rmdir /s /q "%volume_letter%\dernier_firmware_compatible"
 echo.
-set /p theme_delete=Souhaitez-vous supprimer le thème du menu principal (à faire avant de mettre à jour le firmware)? (o/n): 
+set /p theme_delete=Souhaitez-vous supprimer le thème du menu principal (à faire avant de mettre à jour le firmware ou si vous avez des problèmes au lancement d'Atmosphere)? (o/n): 
 if /i "%theme_delete:~0,1%" == "o" (
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001000" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001000"
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000001013" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000001013"
@@ -89,7 +89,7 @@ if /i "%theme_delete:~0,1%" == "o" (
 	IF EXIST "%volume_letter%\atmosphere\contents\0100000000000039" rmdir /s /q "%volume_letter%\atmosphere\contents\0100000000000039"
 )
 echo.
-set /p modules_delete=Souhaitez-vous supprimer les modules d'Atmosphere (supprimera les modules les plus connus du dossier "atmosphere\contents" ainsi que certains autres fichiers pouvant être problématiques, à faire avant de mettre à jour le firmware si vous utilisez des modules ou si vous venez d'un autre pack)? (o/n): 
+set /p modules_delete=Souhaitez-vous supprimer les modules d'Atmosphere (supprimera les modules les plus connus du dossier "atmosphere\contents" et "atmosphere\kips" ainsi que certains autres fichiers pouvant être problématiques, à faire avant de mettre à jour le firmware si vous utilisez des modules ou si vous venez d'un autre pack ou si vous avez des problèmes au lancement d'Atmosphere)? (o/n): 
 if /i "%modules_delete:~0,1%" == "o" (
 	goto:delete_modules
 ) else (
@@ -104,6 +104,10 @@ for /d %%i in ("%volume_letter%\atmosphere\contents\*") do (
 		rmdir /s /q ""%volume_letter%\atmosphere\exefs_patches\bluetooth_patches"
 		rmdir /s /q ""%volume_letter%\atmosphere\exefs_patches\btm_patches"
 	)
+)
+IF EXIST "%volume_letter%\atmosphere\kips\*.*" (
+	rmdir /s /q "%volume_letter%\atmosphere\kips"
+	mkdir "%volume_letter%\atmosphere\kips"
 )
 :skip_delete_modules
 echo.
