@@ -421,13 +421,13 @@ flash_prodinfogen_fnc = {
 		println("")
 		if (mmcTypeWork == 0){
 			emmcwrite(prodinfogen_path, "PRODINFO")
-			color(0xFF0000)
+			color(0x00FF00)
 			println("Tentative de flash du PRODINFO de la sysnand effectuée.")
 			color(0xFFFFFF)
 		}
 		if (mmcTypeWork == 1){
 			emummcwrite(prodinfogen_path, "PRODINFO")
-			color(0xFF0000)
+			color(0x00FF00)
 			println("Tentative de flash du PRODINFO de l'emunand effectuée.")
 			color(0xFFFFFF)
 		}
@@ -436,6 +436,8 @@ flash_prodinfogen_fnc = {
 		println("Le fichier à restauré n'a pas été trouvé.")
 		color(0xFFFFFF)
 	}
+	println("Appuyez sur une touche pour revenir au menu.")
+	pause()
 }
 
 switch_working_nand = {
