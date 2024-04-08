@@ -8,6 +8,27 @@ Ce pack fonctionne pour tous les modèles de Switch.
 &nbsp;
 <h1>Contenu du pack</h1>
 &nbsp;
+<h2>Structure de la SD</h2>
+<ul>
+<li>Dossier "0": Il contient des fichiers servant à lancer Hekate pour d'anciennes configurations de puce Trinket.</li>
+<li>Dossier "atmosphere": Il contient les éléments concernant le CFW Atmosphere.</li>
+<li>Dossier "bootloader": Il contient les éléments liés à Hekate.</li>
+<li>Dossier "config": Il contient des fichiers de configuration pour certains homebrew.</li>
+<li>Dossier "dernier_firmware_compatible": Il contient le dernier firmware compatible avec le pack, il est très important de supprimer ce dossier ou son contenu si vous faites une mise à jour manuelle du pack sans utiliser le script de nettoyage avant.</li>
+<li>Dossier "nsp_forwarders": Quelques raccourcis (forwarders) à installer pour certains homebrews du pack pour ceux qui le souhaite.</li>
+<li>Dossier "payloads": Contient les payloads du pack, utile pour les lanceurs de payloads fonctionnant avec les consoles de type Erista.</li>
+<li>Dossier "switch": Contient les homebrews.</li>
+<li>Dossier "tegraexplorer": Contient un script pour ce même payload qui sert de boîte à outils, très utile lors d'un dépannage.</li>
+<li>Dossier "themes": Contient les patches utilisés par le homebrew gérant les thèmes.</li>
+<li>Dossier "Tutos": Contient des raccourcis internet menant vers quelques tutoriels.</li>
+<li>Fichier "A propos de switch_AIO_LS_pack.html": Ce fichier, contient la documentation.</li>
+<li>Fichiers "boot.dat" et "boot.ini": Ces fichiers fonctionnent ensemble, le premier est le fichier qui était utilisé pour lancer le dongle SX Gear et le second fichier indique quel payload doit être lancé. Ces fichiers sont particulièrement utiles pour ceux ayant des dongles ou puces lançant SXOS auparavant.</li>
+<li>Fichier "exosphere.ini": Un fichier servant à la configuration d'Atmosphere.</li>
+<li>Fichier "hbmenu.nro": Le lanceur de homebrews.</li>
+<li>Fichier "pack_version.txt": Contient juste le numéro de la version du pack, ceci sert au homebrew AIO_LS_pack_Updater pour savoir sur quelle version du pack se trouve la console et proposer les actions adéquates.</li>
+<li>Fichier "payload.bin": C'est le payload Hekate renommé, sert à démarrer Hekate sur la plupart des puces ou configurations de puces actuelles. C'est également le fichier pointé par le fichier "boot.ini".</li>
+<li>Fichier "start.bin": C'est le payload Hekate renommé, ce fichier sert à lancer Hekate pour certaines configurations de puce type Trinket.</li>
+</ul>
 <h2>CFWs</h2>
 <ul>
 <li><a target="_blank" href="https://github.com/Atmosphere-NX/Atmosphere">Atmosphere</a>
@@ -44,7 +65,6 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/nadrino/SimpleModManager">SimpleModManager</a></li>
 <li><a target="_blank" href="https://github.com/meganukebmp/Switch_90DNS_tester">Switch_90DNS_tester</a></li>
 <li><a target="_blank" href="https://github.com/suchmememanyskill/switch-90dns-setter">Switch-90dns-setter</a></li>
-<li><a target="_blank" href="https://tinfoil.io/Download#download">Tinfoil</a></li>
 </ul>
 <h2>Modules</h2>
 <ul>
@@ -62,7 +82,5 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <h1>Installation et mise à jour</h1>
 &nbsp;
 <p>
-Télécharger puis exécuter le script de nettoyage de la SD disponible sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> en lui indiquant la lettre de la SD lorsqu'il le demandera puis télécharger et exécuter l'archive auto-extractible également disponible sur la même page pour l'extraire à la racine de la SD.
-<br/><br/>
-Vous pouvez également utiliser le homebrew <a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater/releases">AIO_LS_pack_Updater</a> qui vous permettra d'installer/mettre à jour le pack dans les mêmes conditions directement depuis une Switch connectée à internet. Attention tout de même, veillez à bien protéger la console pour éviter qu'elle ne soit bannie par Nintendo, vous êtes seul responsable de se que vous faites.
+Voir <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">la page des releases du projet</a>, tout y est expliqué.
 </p>

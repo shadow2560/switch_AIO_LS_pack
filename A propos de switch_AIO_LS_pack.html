@@ -49,15 +49,36 @@ Ce pack fonctionne pour tous les modèles de Switch.
 &nbsp;
 <h1>Utilisation des fonctionnalités</h1>
 <ul>
-<li>Pour lancer le CFW il faut booter sur Hekate (avec une console modifiée cela se fera automatiquement, avec les consoles non patchées et non modifiée il sera peut-être nécessaire d'injecter Hekate manuellement) puis il faut cliquer sur "Launch" puis choisir l'option souhaitée. Il est aussi possible de cliquer sur "Payloads" puis "Atmosphere fusee.bin", ceci lancera Atmosphere avec ses paramètres (par exemple si une emunand est configurée et active cela démarrera automatiquement dessus).</li>
+<li>Pour lancer le CFW il faut booter sur Hekate (avec une console modifiée cela se fera automatiquement, avec les consoles non patchées et non modifiée il sera peut-être nécessaire d'injecter Hekate manuellement) et c'est tout, si une emunand est configurée cela démarrera dessus. Pour accéder à Hekate pour par exemple créer l'emunand il faut appuyer sur la touche "vol-" lors de l'affichage du tout premier logo après injection de Hekate (automatiquement par la puce ou manuellement pour les consoles non patchées).</li>
 <li>Pour lancer un homebrew il faut préférablement installer le forwarder de celui-ci grâce à Atmoxl-titel-installer par exemple. Pour cela on va dans l'album puis on lance le homebrew puis on choisi l'option permettant d'installer un fichier depuis la SD, on va dans le dossier "NSP forwarders" et on installe le Homebrew menu. Une fois cela fait un nouvel icône de jeu apparaîtra et il suffira de cliquer dessus pour lancer le Homebrew Menu avec un accès total à la ram se qui n'est pas le cas avec le lancement via l'album, si lancé via ce dernier on appel cela un lancement en mode applet. Enfin dernière méthode pour lancer le Homebrew Menu, maintenir "R" tout en lançant un jeu, ceci est la même chose que le lnacement via l'icône du Homebrew Menu sur le menu principal.</li>
-<li>Pour accéder aux overlays il suffit de faire la combinaison de touche "L+flèche du bas".</li>
+<li>Pour accéder aux overlays il suffit de faire la combinaison de touche "L+R3+flèche du bas".</li>
 <li>Enfin des tutoriels sont disponibles dans le dossier "tuto" de la SD.</li>
 </ul>
 <h1>Contenu du pack</h1>
 &nbsp;
+<h2>Structure de la SD</h2>
+<ul>
+<li>Dossier "0": Il contient des fichiers servant à lancer Hekate pour d'anciennes configurations de puce Trinket.</li>
+<li>Dossier "atmosphere": Il contient les éléments concernant le CFW Atmosphere.</li>
+<li>Dossier "bootloader": Il contient les éléments liés à Hekate.</li>
+<li>Dossier "config": Il contient des fichiers de configuration pour certains homebrew.</li>
+<li>Dossier "dernier_firmware_compatible": Il contient le dernier firmware compatible avec le pack, il est très important de supprimer ce dossier ou son contenu si vous faites une mise à jour manuelle du pack sans utiliser le script de nettoyage avant.</li>
+<li>Dossier "nsp_forwarders": Quelques raccourcis (forwarders) à installer pour certains homebrews du pack pour ceux qui le souhaite.</li>
+<li>Dossier "payloads": Contient les payloads du pack, utile pour les lanceurs de payloads fonctionnant avec les consoles de type Erista.</li>
+<li>Dossier "switch": Contient les homebrews.</li>
+<li>Dossier "tegraexplorer": Contient un script pour ce même payload qui sert de boîte à outils, très utile lors d'un dépannage.</li>
+<li>Dossier "themes": Contient les patches utilisés par le homebrew gérant les thèmes.</li>
+<li>Dossier "Tutos": Contient des raccourcis internet menant vers quelques tutoriels.</li>
+<li>Fichier "A propos de switch_AIO_LS_pack.html": Ce fichier, contient la documentation.</li>
+<li>Fichiers "boot.dat" et "boot.ini": Ces fichiers fonctionnent ensemble, le premier est le fichier qui était utilisé pour lancer le dongle SX Gear et le second fichier indique quel payload doit être lancé. Ces fichiers sont particulièrement utiles pour ceux ayant des dongles ou puces lançant SXOS auparavant.</li>
+<li>Fichier "exosphere.ini": Un fichier servant à la configuration d'Atmosphere.</li>
+<li>Fichier "hbmenu.nro": Le lanceur de homebrews.</li>
+<li>Fichier "pack_version.txt": Contient juste le numéro de la version du pack, ceci sert au homebrew AIO_LS_pack_Updater pour savoir sur quelle version du pack se trouve la console et proposer les actions adéquates.</li>
+<li>Fichier "payload.bin": C'est le payload Hekate renommé, sert à démarrer Hekate sur la plupart des puces ou configurations de puces actuelles. C'est également le fichier pointé par le fichier "boot.ini".</li>
+<li>Fichier "start.bin": C'est le payload Hekate renommé, ce fichier sert à lancer Hekate pour certaines configurations de puce type Trinket.</li>
+</ul>
 <h2>Le homebrew AIO_LS_pack_Updater</h2>
-<p>Ce homebrew sert principalement à mettre à jour le pack via la console connectée à internet. Cependant il dispose d'autres fonctionnalités comme la mise à jour de lui-même, la mise en place de diverses protections pour éviter le bannissement de la console si connectée à internet et il peut également afficher ou enregistrer dans un fichier diverses informations sur la console. Les options du homebrew sont plutôt claires et ne nécessites pas d'explication supplémentaire pour être utilisée.</p>
+<p>Ce homebrew sert principalement à mettre à jour le pack via la console connectée à internet. Cependant il dispose d'autres fonctionnalités comme la mise à jour de lui-même, la mise en place de diverses protections pour éviter le bannissement de la console si connectée à internet, il peut également afficher ou enregistrer dans un fichier diverses informations sur la console et bien d'autres choses... Les options du homebrew sont plutôt claires et ne nécessites pas d'explication supplémentaire pour être utilisées.</p>
 <h2>CFWs</h2>
 <ul>
 <li><a target="_blank" href="https://github.com/Atmosphere-NX/Atmosphere">Atmosphere</a>
@@ -66,7 +87,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <ul>
 <li><a target="_blank" href="https://github.com/CTCaer/hekate">Hekate</a></li>
 <li><a target="_blank" href="https://github.com/hwfly-nx/">Le projet HWFly</a></li>
-<li><a target="_blank" href="https://github.com/Ansem-SoD/Picofly">Les fichiers pour le Picofly</a>, voir aussi <a target="_blank" href="https://gbatemp.net/threads/picofly-aio-thread.628951/">ce sujet sur GBATemp</a> et <a target="_blank" href="https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/page-78#post-10090767">ce poste pouur voir les mises à jour pour les fichiers du Picofly</a></li>
+<li><a target="_blank" href="https://github.com/Ansem-SoD/Picofly">Les fichiers pour le Picofly</a>, voir aussi <a target="_blank" href="https://gbatemp.net/threads/picofly-aio-thread.628951/">ce sujet sur GBATemp</a> et <a target="_blank" href="https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/page-78#post-10090767">ce poste pour voir les mises à jour pour les fichiers du Picofly</a></li>
 <li><a target="_blank" href="https://vps.suchmeme.nl/git/mudkip/Lockpick_RCM">Lockpick-RCM</a></li>
 <li><a target="_blank" href="https://github.com/CaramelDunes/prodinfo_gen/">Prodinfo_gen</a></li>
 <li><a target="_blank" href="https://github.com/suchmememanyskill/TegraExplorer">TegraExplorer</a></li>
@@ -94,7 +115,6 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/nadrino/SimpleModManager">SimpleModManager</a></li>
 <li><a target="_blank" href="https://github.com/meganukebmp/Switch_90DNS_tester">Switch_90DNS_tester</a></li>
 <li><a target="_blank" href="https://github.com/suchmememanyskill/switch-90dns-setter">Switch-90dns-setter</a></li>
-<li><a target="_blank" href="https://tinfoil.io/Download#download">Tinfoil</a></li>
 </ul>
 <h2>Modules</h2>
 <ul>
@@ -112,9 +132,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <h1>Installation et mise à jour</h1>
 &nbsp;
 <p>
-Télécharger puis exécuter le script de nettoyage de la SD disponible sur <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">cette page</a> en lui indiquant la lettre de la SD lorsqu'il le demandera puis télécharger et exécuter l'archive auto-extractible également disponible sur la même page pour l'extraire à la racine de la SD.
-<br/><br/>
-Vous pouvez également utiliser le homebrew <a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater/releases">AIO_LS_pack_Updater</a> qui vous permettra d'installer/mettre à jour le pack dans les mêmes conditions directement depuis une Switch connectée à internet. Attention tout de même, veillez à bien protéger la console pour éviter qu'elle ne soit bannie par Nintendo, vous êtes seul responsable de se que vous faites.
+Vous trouverez <a href="https://ls-atelier-tutos.fr/switch_aio_ls_pack.php" target="_blank">un tutoriel d'installation et de mise à jour détaillé sur cette page</a>.
 </p>
 </body>
 </html>
