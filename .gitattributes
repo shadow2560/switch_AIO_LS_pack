@@ -3,6 +3,9 @@
 /readme.md	export-ignore
 /.gitignore	export-ignore
 /app_version.txt	export-ignore
+/changelog.md	export-ignore
+/changelog.html	export-ignore
 /nettoyage_sd.bat	export-ignore
-/sha256_pack.txt	export-ignore
 /sha256_AIO_LS_pack_Updater.txt	export-ignore
+/sha256_pack.txt	export-ignore
+/sha256_pack_beta.txt	export-ignore
