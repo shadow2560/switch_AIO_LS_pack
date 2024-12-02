@@ -1,5 +1,16 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.15.8B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sys-patch.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 6.99.02 apportant les changements suivants:
+<ul>
+<li>Ajout d'une option dans le menu pour synchroniser l'heure de la console.</li>
+<li>Correction de bugs dans l'affichage du changelog.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.15.7B</h2>
 &nbsp;
 <ul>
