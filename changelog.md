@@ -1,6 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
-<h2>version 5.15.5B</h2>
+<h2>version 5.15.7B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sys-patch.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 6.99.01 apportant les changements suivants:
+<ul>
+<li>La synchronisation de l'heure sera faite avant l'affichage du changelog, plus au démarrage du homebrew.</li>
+<li>Correction de bugs dans l'affichage du changelog.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.15.6B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 6.99.00 apportant les changements suivants:
