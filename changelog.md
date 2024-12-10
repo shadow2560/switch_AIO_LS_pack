@@ -1,5 +1,21 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.16.0</h2>
+&nbsp;
+<ul>
+<li>Passage aux outils basés sur Libultrahand pour lancer les overlays au lieu de Libtesla qui n'est plus mis à jour depuis un moment. De fait les raccourcis pour lancer le menu des overlays devient "ZL+ZR+croix directionnelle vers le bas".</li>
+<li>Suppression des fichiers de configuration liés au menu des overlays basé sur Tesla.</li>
+<li>Mise à jour de Sys-patch, de JKSV, de Status-monitor-overlay et de de EdiZon-Overlay vers la dernière version de ceux-ci.</li>
+<li>Mise à jour des crédits.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.00.00 apportant les changements suivants:
+<ul>
+<li>Nouvelle fonction permettant d'afficher le dernier changelog du pack via le homebrew en appuyant sur "LS" sur le menu principal ou sur "X" lorsque cela est proposé durant la mise à jour du pack (lancement du homebrew hors mode applet et connexion à internet requis).</li>
+<li>Ajout d'une option dans le menu pour synchroniser l'heure de la console.</li>
+<li>Synchronisation  de l'heure de la console avec des serveurs distants avant l'affichage du changelog.</li>
+<li>La connexion à internet est vérifiée avant de lancer les fonctions la nécessitant.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.15.9B</h2>
 &nbsp;
 <ul>
@@ -55,13 +71,13 @@
 <h2>version 5.15.4B</h2>
 &nbsp;
 <ul>
-<li>Mise à jour de Sys-patch.
+<li>Mise à jour de Sys-patch.</li>
 </ul>
 &nbsp;
 <h2>version 5.15.3B</h2>
 &nbsp;
 <ul>
-<li>Mise à jour de Sys-patch.
+<li>Mise à jour de Sys-patch.</li>
 </ul>
 &nbsp;
 <h2>version 5.15.2B</h2>
