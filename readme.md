@@ -69,7 +69,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <h2>Modules</h2>
 <ul>
 <li><a target="_blank" href="https://github.com/ppkantorski/nx-ovlloader">nx-ovlloader</a> et <a target="_blank" href="https://github.com/ppkantorski/Ultrahand-Overlay">Ultrahand-Overlay</a></li>
-<li><a target="_blank" href="https://github.com/impeeza/sys-patch">Sys-patch</a></li>
+<li><a target="_blank" href="https://github.com/shadow2560/sys-patch">Sys-patch</a></li>
 </ul>
 <h2>Overlays</h2>
 <ul>
