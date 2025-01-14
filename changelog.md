@@ -1,5 +1,18 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.0</h2>
+&nbsp;
+<ul>
+<li>Ajout de Sphaira qui remplace le Homebrew Menu, une sauvegarde de ce dernier se trouve au chemin "switch/hbmenu.nro" qui peut être restauré via les options de Sphaira.</li>
+<li>Mise à jour de Status-monitor-overlay.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.01.00 apportant les changements suivants:
+<ul>
+<li>Optimisation de l'écriture des logs.</li>
+<li>Ajout de fonctions pouvant servir plus tard.</li>
+<li>Quelques autres corrections mineures.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.16.0</h2>
 &nbsp;
 <ul>
