@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.2B</h2>
+&nbsp;
+<ul>
+<li>Le script de nettoyage ne supprimera plus les modules Sys-patch et Ultrahand durant le nettoyage des modules.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.1B</h2>
 &nbsp;
 <ul>
