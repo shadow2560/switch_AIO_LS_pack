@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.3B</h2>
+&nbsp;
+<ul>
+<li>Ajout d'un script de nettoyage de la SD pour Linux et Mac.</li>
+<li>Mise à jour de la documentation.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.2B</h2>
 &nbsp;
 <ul>
