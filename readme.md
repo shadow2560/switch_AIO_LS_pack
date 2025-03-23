@@ -83,5 +83,5 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <h1>Installation et mise à jour</h1>
 &nbsp;
 <p>
-Voir <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">la page des releases du projet</a>, tout y est expliqué.
+Voir <a target="_blank" href="https://github.com/shadow2560/switch_AIO_LS_pack/releases">la page des releases du projet</a>, tout y est expliqué. Pour des explications plus complètes, voir <a target="_blank" href="https://ls-atelier-tutos.fr/switch_aio_ls_pack.php">cette page</a>
 </p>
