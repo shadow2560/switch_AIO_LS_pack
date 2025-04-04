@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.4B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.02.00 apportant les changements suivants:
+<ul>
+<li>Les messages des traductions sont maintenant des std::string au lieu de char*, ceci permet d'éviter des problèmes de fuites mémoire qui pouvaient faire planter certaines fonctions.</li>
+<li>Mise à jour de certaines traductions pour supprimer des accents.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.17.3B</h2>
 &nbsp;
 <ul>
