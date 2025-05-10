@@ -1,5 +1,24 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.6B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.0.1.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Mise à jour de Hekate. Les configs de Hekate ont aussi été mises à jour pour utiliser les configs "pkg3" au lieu de "fss0", ne change rien pour l'utilisateur.</li>
+<li>Mise à jour de Sys-patch.</li>
+<li>Mise à jour de Lockpick-RCM.</li>
+<li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour des patches utilisés pour les thèmes.</li>
+<li>Mise à jour de Ultrahand-ovlmenu.</li>
+<li>Mise à jour de Status-Monitor-Overlay.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.03.00 apportant les changements suivants:
+<ul>
+<li>Les configurations fss0 de Hekate ont été remplacées par des configurations pkg3 qui ne sont utilisables qu'à partir de Hekate 6.3.0, veillez donc bien à se qu'il soit à jour.</li>
+<li>Compilé avec la dernière version de la Libnx.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.5B</h2>
 &nbsp;
 <ul>
