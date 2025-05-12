@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.7B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de NXMP.</li>
+<li>Mise à jour de Goldleaf.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.6B</h2>
 &nbsp;
 <ul>
