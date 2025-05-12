@@ -47,11 +47,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <ul>
 <li><a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater">AIO_LS_pack_Updater</a></li>
 <li><a target="_blank" href="https://github.com/HamletDuFromage/AIO-switch-updater">AIO-switch-updater</a></li>
-<li><a target="_blank" href="https://gitlab.com/4TU/hb-appstore">Homebrew App Store</a></li>
-<li><a target="_blank" href="https://github.com/dezem/AtmoXL-Titel-Installer">AtmoXL-Titel-Installer</a></li>
 <li><a target="_blank" href="https://github.com/rashevskyv/switch">DBI, part of Kefir project</a></li>
-<li><a target="_blank" href="https://github.com/mtheall/ftpd">Ftpd</a></li>
-<li><a target="_blank" href="https://github.com/ITotalJustice/Gamecard-Installer-NX">Gamecard-Installer-NX</a></li>
 <li><a target="_blank" href="https://github.com/XorTroll/Goldleaf">Goldleaf</a></li>
 <li><a target="_blank" href="https://github.com/StarDustCFW/Haku33/">Haku33</a></li>
 <li><a target="_blank" href="https://github.com/J-D-K/JKSV">JKSV</a></li>
@@ -59,13 +55,10 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <li><a target="_blank" href="https://github.com/DarkMatterCore/nxdumptool">Nxdumptool</a></li>
 <li><a target="_blank" href="https://github.com/proconsule/nxmp">Nxmp</a></li>
 <li><a target="_blank" href="https://github.com/exelix11/SwitchThemeInjector">SwitchThemeInjector</a> and <a target="blank" href="https://github.com/exelix11/theme-patches">system patches for it</a></li>
-<li><a target="_blank" href="https://github.com/suchmememanyskill/Payload_Launcher">Payload_Launcher</a></li>
 <li><a target="_blank" href="https://github.com/ITotalJustice/Reset-Parental-Controls-NX">Reset-Parental-Controls-NX</a></li>
 <li><a target="_blank" href="https://github.com/PoloNX/SimpleModDownloader">SimpleModDownloader</a></li>
 <li><a target="_blank" href="https://github.com/nadrino/SimpleModManager">SimpleModManager</a></li>
 <li><a target="_blank" href="https://github.com/ITotalJustice/sphaira">Sphaira</a></li>
-<li><a target="_blank" href="https://github.com/meganukebmp/Switch_90DNS_tester">Switch_90DNS_tester</a></li>
-<li><a target="_blank" href="https://github.com/suchmememanyskill/switch-90dns-setter">Switch-90dns-setter</a></li>
 </ul>
 <h2>Modules</h2>
 <ul>

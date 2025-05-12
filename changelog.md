@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.8B</h2>
+&nbsp;
+<ul>
+<li>suppression des homebrews AtmoXL-Titel-Installer, Hb-appstore, FTPD, Gamecard_installer-NX, Haze et Payload_Launcher car toutes ces fonctionnalités se retrouvent dans Sphaira.</li>
+<li>Suppression des homebrews Switch_90DNS_tester et Switch-90dns-setter car des fonctions similaires se trouve dans AIO_LS_pack_Updater.</li>
+<li>Suppression du dossier "payloads" à la racine de la SD car il n'a maintenant plus aucune utilité.</li>
+<li>Mise à jour du fichier "start.bin" dans le dossier "0" avec la dernière version de Hekate.</li>
+<li>Mise à jour des crédits.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.7B</h2>
 &nbsp;
 <ul>

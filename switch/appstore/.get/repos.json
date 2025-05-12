@@ -1,7 +1,0 @@
-{
-	"repos": [{
-		"name": "Default Repo",
-		"url": "https://switch.cdn.fortheusers.org",
-		"enabled": true
-	}]
-}
