@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.10B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour de NXMP.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.9B</h2>
 &nbsp;
 <ul>
