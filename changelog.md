@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.11B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sphaira.</li>
+</ul>
+&nbsp;
 <h2>version 5.17.10B</h2>
 &nbsp;
 <ul>
