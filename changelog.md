@@ -3,6 +3,15 @@
 <h2>version 5.17.14B</h2>
 &nbsp;
 <ul>
+<li>Dernier firmware compatible mis à jour en version 20.1.0.</li>
+<li>Mise à jour de Atmosphere.</li>
+<li>Mise à jour de Hekate.</li>
+<li>Mise à jour de Sphaira.</li>
+</ul>
+&nbsp;
+<h2>version 5.17.14B</h2>
+&nbsp;
+<ul>
 <li>Mise à jour de Ultrahand-Overlay.</li>
 </ul>
 &nbsp;
