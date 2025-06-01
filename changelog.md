@@ -1,5 +1,14 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.17.17B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.03.01 apportant les changements suivants:
+<ul>
+<li>Plus aucun warnings lors de la compilation.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.17.16B</h2>
 &nbsp;
 <ul>
