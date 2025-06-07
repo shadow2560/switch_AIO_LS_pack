@@ -1,5 +1,37 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.18.1B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.1.1.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour de Ultrahand-Overlay.</li>
+</ul>
+&nbsp;
+<h2>version 5.18.0</h2>
+&nbsp;
+<ul>
+<li>Ajout d'un script de nettoyage de la SD pour Linux et Mac.</li>
+<li>Le script de nettoyage ne supprimera plus les modules Sys-patch et Ultrahand durant le nettoyage des modules.</li>
+<li>Dernier firmware compatible mis à jour en version 20.1.0.</li>
+<li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
+<li>Mise à jour des patches utilisés pour les thèmes.</li>
+<li>Mise à jour d'Atmosphere, de Hekate, de Sys-patch, de Lockpick-RCM, du module et du homebrew gérant les overlays, de Sphaira, de Status-monitor-overlay, de NXMP, de NXThemeInstaller et de Goldleaf vers la dernière version de ceux-ci.</li>
+<li>suppression des homebrews AtmoXL-Titel-Installer, Hb-appstore, FTPD, Gamecard_installer-NX, Haze et Payload_Launcher car toutes ces fonctionnalités se retrouvent dans Sphaira.</li>
+<li>Suppression des homebrews Switch_90DNS_tester et Switch-90dns-setter car des fonctions similaires se trouve dans AIO_LS_pack_Updater.</li>
+<li>Suppression du dossier "payloads" à la racine de la SD car il n'a maintenant plus aucune utilité.</li>
+<li>Mise à jour de la documentation et des crédits.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.03.01 apportant les changements suivants:
+<ul>
+<li>Les messages des traductions sont maintenant des std::string au lieu de char*, ceci permet d'éviter des problèmes de fuites mémoire qui pouvaient faire planter certaines fonctions.</li>
+<li>Mise à jour de certaines traductions pour supprimer des accents.</li>
+<li>Les configurations fss0 de Hekate ont été remplacées par des configurations pkg3 qui ne sont utilisables qu'à partir de Hekate 6.3.0, veillez donc bien à se qu'il soit à jour.</li>
+<li>Plus aucun warnings lors de la compilation.</li>
+<li>Compilé avec la dernière version de la Libnx.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.17.18B</h2>
 &nbsp;
 <ul>
