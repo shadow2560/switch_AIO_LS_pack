@@ -1,5 +1,16 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.18.2B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.1.5.</li>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour de Edizon-overlay.</li>
+<li>Mise à jour de Goldleaf.</li>
+<li>Mise à jour de Ultrahand-Overlay et du module Ultrahand-ovlmenu.</li>
+<li>Mise à jour des patches utilisés pour les thèmes.</li>
+</ul>
+&nbsp;
 <h2>version 5.18.1B</h2>
 &nbsp;
 <ul>
