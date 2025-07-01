@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.18.3B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-Overlay.</li>
+<li>Mise à jour de NXThemeInstaller.</li>
+<li>Mise à jour de NXDumpTool.</li>
+</ul>
+&nbsp;
 <h2>version 5.18.2B</h2>
 &nbsp;
 <ul>
