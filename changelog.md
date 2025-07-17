@@ -6,6 +6,7 @@
 <li>Dernier firmware compatible mis à jour en version 20.2.0.</li>
 <li>Mise à jour d'Atmosphere.</li>
 <li>Mise à jour de Ultrahand-Overlay.</li>
+<li>Mise à jour de SimpleModDownloader.</li>
 </ul>
 &nbsp;
 <h2>version 5.18.4B</h2>
