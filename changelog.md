@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.18.5B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.2.0.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Mise à jour de Ultrahand-Overlay.</li>
+</ul>
+&nbsp;
 <h2>version 5.18.4B</h2>
 &nbsp;
 <ul>
