@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.18.6B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+</ul>
+&nbsp;
 <h2>version 5.18.5B</h2>
 &nbsp;
 <ul>
