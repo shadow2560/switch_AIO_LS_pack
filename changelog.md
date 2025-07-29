@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.2.0.</li>
+<li>Mise à jour d'Atmosphere, du module Ultrahand-ovlmenu, de Ultrahand-overlay, de Sphaira, de Edizon-overlay, de Goldleaf, de SimpleModDownloader, de NXDumpTool et de NXThemeInstaller vers la dernière version de ceux-ci.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+</ul>
+&nbsp;
 <h2>version 5.18.6B</h2>
 &nbsp;
 <ul>
