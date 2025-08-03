@@ -1,10 +1,16 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.2B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Status-Monitor-Overlay.</li>
+</ul>
+&nbsp;
 <h2>version 5.19.1B</h2>
 &nbsp;
 <ul>
 <li>Dernier firmware compatible mis à jour en version 20.3.0.</li>
-<li>Mise à jour d'Atmosphere vers la dernière version de celui-ci.</li>
+<li>Mise à jour d'Atmosphere.</li>
 </ul>
 &nbsp;
 <h2>version 5.19.0</h2>
