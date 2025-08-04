@@ -1,5 +1,14 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.3B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.00 apportant les changements suivants:
+<ul>
+<li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insencible à la casse.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.19.2B</h2>
 &nbsp;
 <ul>
