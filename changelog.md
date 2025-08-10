@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.8B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du package switch_AIO_LS_pack_Utilities en version 1.0.0.</li>
+</ul>
+&nbsp;
 <h2>version 5.19.7B</h2>
 &nbsp;
 <ul>
