@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.7B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.02 apportant les changements suivants:
+<ul>
+<li>Nouvelle tentative de correction d'un bug lors de la vérification des sha256.</li>
+<li>Correction de bugs lors d'un échec de vérification du sha256 lors du téléchargement d'une mise à jour du homebrew, le traitement ne s'arrêtait pas malgré l'erreur.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.19.6B</h2>
 &nbsp;
 <ul>
