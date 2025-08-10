@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.19.5B</h2>
+&nbsp;
+<ul>
+<li>Ajout d'un package switch_AIO_LS_pack_Utilities pour Ultrahand-Overlay permettant d'effectuer certaines configurations ou actions, en phase très expérimentale pour le moment.</li>
+</ul>
+&nbsp;
 <h2>version 5.19.4B</h2>
 &nbsp;
 <ul>
