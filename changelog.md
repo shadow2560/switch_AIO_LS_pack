@@ -1,5 +1,18 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.20.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.3.0.</li>
+<li>Mise à jour d'Atmosphere, de Ultrahand-overlay et de Status-Monitor-Overlay vers la dernière version de ceux-ci.</li>
+<li>Ajout d'un package switch_AIO_LS_pack_Utilities pour Ultrahand-Overlay permettant d'effectuer certaines configurations ou actions (réglage de la détection du port cartouche, activation/désactivation des redirections vers le Homebrew Menu, activation/désactivation de l'auto-boot de Hekate et redémarrages divers).</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.02 apportant les changements suivants:
+<ul>
+<li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insensibles à la casse. Notez que si vous avez fait la mise à jour du pack entre la version 5.19.3B et 5.19.6B inclus et/ou que vous avez le homebrew en version 7.04.00 ou 7.04.01 vous devrez réinstaller la dernière version du homebrew manuellement à cause de bugs qui se sont produits durant les mises à jour et qui ont provoqué des erreurs lors de la vérification des sha256.</li>
+<li>Correction de bugs lors d'un échec de vérification du sha256 lors du téléchargement d'une mise à jour du homebrew, le traitement ne s'arrêtait pas malgré l'erreur.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.19.8B</h2>
 &nbsp;
 <ul>
@@ -42,7 +55,7 @@
 <ul>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.00 apportant les changements suivants:
 <ul>
-<li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insencible à la casse.</li>
+<li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insensibles à la casse.</li>
 </ul>
 </ul>
 &nbsp;
