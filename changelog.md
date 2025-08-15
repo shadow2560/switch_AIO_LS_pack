@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.20.1</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de AIO_LS_pack_utilities en version 1.0.1, corrige une erreur sur le patch pour activer/désactiver le port cartouche, celui-ci était inversé et activait lorsqu'on désactivait et inversement.</li>
+<li>Mise à jour de Status-Monitor-Overlay vers la dernière version de celui-ci.</li>
+</ul>
+&nbsp;
 <h2>version 5.20.0</h2>
 &nbsp;
 <ul>
