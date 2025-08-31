@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.20.3B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.05.00 apportant les changements suivants:
+<ul>
+<li>L'utilisateur pourra maintenant choisir de continuer ou non une action si la vérification sha256 échoue.</li>
+<li>Correction de possibles bugs lorsque la vérification du sha256 échouait.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.20.2B</h2>
 &nbsp;
 <ul>
