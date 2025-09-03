@@ -3,6 +3,14 @@
 <h2>version 5.20.3B</h2>
 &nbsp;
 <ul>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de Status-Monitor-Overlay.</li>
+<li>Mise à jour de NXThemeInstaller.</li>
+</ul>
+&nbsp;
+<h2>version 5.20.3B</h2>
+&nbsp;
+<ul>
 <li>Dernier firmware compatible mis à jour en version 20.4.0.</li>
 <li>Mise à jour d'Atmosphere.</li>
 </ul>
