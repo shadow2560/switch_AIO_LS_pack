@@ -3,6 +3,13 @@
 <h2>version 5.20.3B</h2>
 &nbsp;
 <ul>
+<li>Dernier firmware compatible mis à jour en version 20.4.0.</li>
+<li>Mise à jour d'Atmosphere.</li>
+</ul>
+&nbsp;
+<h2>version 5.20.3B</h2>
+&nbsp;
+<ul>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.05.00 apportant les changements suivants:
 <ul>
 <li>L'utilisateur pourra maintenant choisir de continuer ou non une action si la vérification sha256 échoue.</li>
