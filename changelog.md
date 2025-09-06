@@ -1,6 +1,16 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
-<h2>version 5.20.3B</h2>
+<h2>version 5.20.6B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.06.00 apportant les changements suivants:
+<ul>
+<li>Tentative de correction du bug aléatoire se produisant à la fin de l'installation du pack avec l'installation du firmware, j'espère que cette fois se sera la bonne.</li>
+<li>Correction de bugs potentiels et quelques améliorations, voir <a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater/commit/862ce527b0a4257accc95a477c43abd4b30c8aac">le commit associé sur le Github du projet</a> pour en savoir plus.</li>
+</ul>
+</ul>
+&nbsp;
+<h2>version 5.20.5B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour de Ultrahand-overlay.</li>
@@ -8,7 +18,7 @@
 <li>Mise à jour de NXThemeInstaller.</li>
 </ul>
 &nbsp;
-<h2>version 5.20.3B</h2>
+<h2>version 5.20.4B</h2>
 &nbsp;
 <ul>
 <li>Dernier firmware compatible mis à jour en version 20.4.0.</li>
