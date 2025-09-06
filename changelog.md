@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.20.8B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.07.00 apportant les changements suivants:
+<ul>
+<li>La vérification sha256 durant l'unzip utilise une lecture streamé au lieu de lire en une fois le fichier (mieux pour la mémoire utilisé pour ce processus et devient cohérent avec la modification de la copie des fichiers du zip vers la SD effectuée dans la version 7.06.00).</li>
+<li>Réécriture des fonctions récupérant le fichier contenant le sha256 pour les différents éléments pour qu'elle utilise moins la heap et pour corriger certains problèmes potentiels en cas d'erreurs.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.20.7B</h2>
 &nbsp;
 <ul>
