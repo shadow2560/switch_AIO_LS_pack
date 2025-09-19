@@ -1,5 +1,28 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.21.1B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-overlay.</li>
+</ul>
+&nbsp;
+<h2>version 5.21.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 20.4.0.</li>
+<li>Mise à jour d'Atmosphere, de Ultrahand-overlay, de NXThemeInstaller et de Status-Monitor-Overlay vers la dernière version de ceux-ci.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.07.00 apportant les changements suivants:
+<ul>
+<li>L'utilisateur pourra maintenant choisir de continuer ou non une action si la vérification sha256 échoue.</li>
+<li>Correction de possibles bugs lorsque la vérification du sha256 échouait.</li>
+<li>Tentative de correction du bug aléatoire se produisant à la fin de l'installation du pack avec l'installation du firmware, j'espère que cette fois se sera la bonne.</li>
+<li>Correction de bugs potentiels et quelques améliorations, voir <a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater/commit/862ce527b0a4257accc95a477c43abd4b30c8aac">le commit associé sur le Github du projet</a> pour en savoir plus.</li>
+<li>Amélioration des logs de debug durant la procédure d'unzip.</li>
+<li>La vérification sha256 durant l'unzip utilise une lecture streamé au lieu de lire en une fois le fichier (mieux pour la mémoire utilisé pour ce processus et devient cohérent avec la modification de la copie des fichiers du zip vers la SD effectuée dans la version 7.06.00).</li>
+<li>Réécriture des fonctions récupérant le fichier contenant le sha256 pour les différents éléments pour qu'elle utilise moins la heap et pour corriger certains problèmes potentiels en cas d'erreurs.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.20.8B</h2>
 &nbsp;
 <ul>
