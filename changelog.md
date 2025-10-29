@@ -1,10 +1,18 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.1B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de Status-monitor-overlay.</li>
+<li>Mise à jour d'EdiZon-overlay.</li>
+</ul>
+&nbsp;
 <h2>version 5.22.0</h2>
 &nbsp;
 <ul>
 <li>Dernier firmware compatible mis à jour en version 20.5.0.</li>
-<li>Mise à jour D'Atmosphere et de Ultrahand-overlay.</li>
+<li>Mise à jour D'Atmosphere et de Ultrahand-overlay vers la dernière version de ceux-ci.</li>
 </ul>
 &nbsp;
 <h2>version 5.21.2B</h2>
