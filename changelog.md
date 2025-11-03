@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.2B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Status-monitor-overlay.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.08.00 apportant les changements suivants:
+<ul>
+<li>Les accents seront correctement affichés, globalement grâce à la version modifiée de [la Libnx effectuée par Polonx](https://github.com/PoloNX/libnx/) avec laquelle le projet a été compilée.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.22.1B</h2>
 &nbsp;
 <ul>
