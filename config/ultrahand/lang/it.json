@@ -88,6 +88,8 @@
     "FAILED_TO_OPEN": "Apertura del File Fallita",
     "LAUNCH_COMBOS": "Combinazioni di Avvio",
     "NOTIFICATIONS": "Notifiche",
+    "SOUND_EFFECTS": "Effetti sonori",
+    "HAPTIC_FEEDBACK": "Feedback aptico",
     "OPAQUE_SCREENSHOTS": "Screenshot Opachi",
     "ON": "Acceso",
     "OFF": "Spento",
