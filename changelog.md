@@ -1,5 +1,41 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.7B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 21.0.1.</li>
+<li>Le script TegraExplorer "shadow256_utilitaires" contient une fonction permettant de fixer le downgrade du firmware 21.0.0+ à un firmware inférieur sur la nand souhaitée (emunand ou sysnand selon la nand de travail sélectionnée dans le script avant de lancer la fonction).</li>
+<li>Suppression de NXMP et de SimpleModDownloader car non compatibles pour l'instant avec le dernier firmware.</li>
+<li>Ajout du payload DowngradeFixer.</li>
+<li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Mise à jour de Hekate.</li>
+<li>Mise à jour de Sys-patch.</li>
+<li>Mise à jour de Lockpick-RCM.</li>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour de DBI, sera maintenant en russe, pour accéder au mode MTP il suffit d'appuyer sur la touche "X" sur le menu principal du homebrew.</li>
+<li>Mise à jour de Reset-Parental-Controls-NX.</li>
+<li>Mise à jour de Linkalho.</li>
+<li>Mise à jour de Haku33.</li>
+<li>Mise à jour de Aio-switch-updater.</li>
+<li>Mise à jour de NXThemeInstaller.</li>
+<li>Mise à jour de JKSV.</li>
+<li>Mise à jour de NXDumpTool.</li>
+<li>Mise à jour de SimpleModManager.</li>
+<li>Mise à jour de Ultrahand-nx-ovloader.</li>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de ovlSysmodules.</li>
+<li>Mise à jour de EdiZon-overlay.</li>
+<li>Mise à jour de FastCFWswitch.</li>
+<li>Mise à jour de Status-Monitor-Overlay.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.09.00 apportant les changements suivants:
+<ul>
+<li>Compilé pour être compatible avec la dernière version d'Atmosphere.</li>
+<li>Les outils inclus dans le homebrew ont aussi été recompilés pour être compatibles avec les dernières versions d'Atmosphere.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.22.6B</h2>
 &nbsp;
 <ul>
@@ -75,7 +111,7 @@
 <li>Amélioration des logs de debug durant la procédure d'unzip.</li>
 <li>La vérification sha256 durant l'unzip utilise une lecture streamé au lieu de lire en une fois le fichier (mieux pour la mémoire utilisé pour ce processus et devient cohérent avec la modification de la copie des fichiers du zip vers la SD effectuée dans la version 7.06.00).</li>
 <li>Réécriture des fonctions récupérant le fichier contenant le sha256 pour les différents éléments pour qu'elle utilise moins la heap et pour corriger certains problèmes potentiels en cas d'erreurs.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.8B</h2>
@@ -85,7 +121,7 @@
 <ul>
 <li>La vérification sha256 durant l'unzip utilise une lecture streamé au lieu de lire en une fois le fichier (mieux pour la mémoire utilisé pour ce processus et devient cohérent avec la modification de la copie des fichiers du zip vers la SD effectuée dans la version 7.06.00).</li>
 <li>Réécriture des fonctions récupérant le fichier contenant le sha256 pour les différents éléments pour qu'elle utilise moins la heap et pour corriger certains problèmes potentiels en cas d'erreurs.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.7B</h2>
@@ -94,7 +130,7 @@
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.06.01 apportant les changements suivants:
 <ul>
 <li>Amélioration des logs de debug durant la procédure d'unzip.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.6B</h2>
@@ -104,7 +140,7 @@
 <ul>
 <li>Tentative de correction du bug aléatoire se produisant à la fin de l'installation du pack avec l'installation du firmware, j'espère que cette fois se sera la bonne.</li>
 <li>Correction de bugs potentiels et quelques améliorations, voir <a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater/commit/862ce527b0a4257accc95a477c43abd4b30c8aac">le commit associé sur le Github du projet</a> pour en savoir plus.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.5B</h2>
@@ -129,7 +165,7 @@
 <ul>
 <li>L'utilisateur pourra maintenant choisir de continuer ou non une action si la vérification sha256 échoue.</li>
 <li>Correction de possibles bugs lorsque la vérification du sha256 échouait.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.2B</h2>
@@ -138,7 +174,7 @@
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.03 apportant les changements suivants:
 <ul>
 <li>Encore une tentative de correction de l'erreur qui arrive parfois à la fin de l'installation du pack après l'installation du firmware.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.20.1</h2>
@@ -158,7 +194,7 @@
 <ul>
 <li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insensibles à la casse. Notez que si vous avez fait la mise à jour du pack entre la version 5.19.3B et 5.19.6B inclus et/ou que vous avez le homebrew en version 7.04.00 ou 7.04.01 vous devrez réinstaller la dernière version du homebrew manuellement à cause de bugs qui se sont produits durant les mises à jour et qui ont provoqué des erreurs lors de la vérification des sha256.</li>
 <li>Correction de bugs lors d'un échec de vérification du sha256 lors du téléchargement d'une mise à jour du homebrew, le traitement ne s'arrêtait pas malgré l'erreur.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.19.8B</h2>
@@ -174,7 +210,7 @@
 <ul>
 <li>Nouvelle tentative de correction d'un bug lors de la vérification des sha256.</li>
 <li>Correction de bugs lors d'un échec de vérification du sha256 lors du téléchargement d'une mise à jour du homebrew, le traitement ne s'arrêtait pas malgré l'erreur.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.19.6B</h2>
@@ -183,7 +219,7 @@
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.01 apportant les changements suivants:
 <ul>
 <li>Tentative de correction d'un bug lors de la vérification des sha256.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.19.5B</h2>
@@ -204,7 +240,7 @@
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.04.00 apportant les changements suivants:
 <ul>
 <li>La vérification des sha256 pour le téléchargement du homebrew, du pack ou du fichier zip complémentaire au pack sont maintenant insensibles à la casse.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.19.2B</h2>
@@ -297,7 +333,7 @@
 <li>Les configurations fss0 de Hekate ont été remplacées par des configurations pkg3 qui ne sont utilisables qu'à partir de Hekate 6.3.0, veillez donc bien à se qu'il soit à jour.</li>
 <li>Plus aucun warnings lors de la compilation.</li>
 <li>Compilé avec la dernière version de la Libnx.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.17.18B</h2>
@@ -312,7 +348,7 @@
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.03.01 apportant les changements suivants:
 <ul>
 <li>Plus aucun warnings lors de la compilation.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.17.16B</h2>
@@ -403,6 +439,7 @@
 <ul>
 <li>Les configurations fss0 de Hekate ont été remplacées par des configurations pkg3 qui ne sont utilisables qu'à partir de Hekate 6.3.0, veillez donc bien à se qu'il soit à jour.</li>
 <li>Compilé avec la dernière version de la Libnx.</li>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.17.5B</h2>
@@ -418,7 +455,7 @@
 <ul>
 <li>Les messages des traductions sont maintenant des std::string au lieu de char*, ceci permet d'éviter des problèmes de fuites mémoire qui pouvaient faire planter certaines fonctions.</li>
 <li>Mise à jour de certaines traductions pour supprimer des accents.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.17.3B</h2>
@@ -450,7 +487,7 @@
 <li>Optimisation de l'écriture des logs.</li>
 <li>Ajout de fonctions pouvant servir plus tard.</li>
 <li>Quelques autres corrections mineures.</li>
-</ul>
+</ul></li>
 </ul>
 &nbsp;
 <h2>version 5.16.0</h2>
