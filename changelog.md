@@ -1,5 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.8B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Goldleaf.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.10.00 apportant les changements suivants:
+<ul>
+<li>Un avertissement aura lieu si le firmware actuel est un firmware au moins égal au firmware 21.0.0 lorsqu'un firmware inférieur au firmware 21.0.0 tentera d'être installé, permettant d'annuler l'installation de celui-ci. Attention cependant, si une installation du pack et du firmware sont faites ensemble, le firmware n'étant installé qu'à la fin le pack sera tout de même installé et donc ne sera probablement pas compatible avec la version du firmware gardée.</li>
+<li>Dans la fonction permettant de mettre à jour le firmware uniquement, le thème, le nettoyage agressif et le nettoyage des modules ne seront pas faits si le firmware ne s'installe pas.</li>
+<li>En cas d'erreur durant l'installation du firmware, les services liés à cette fonctionnalité sont quittés correctement.</li>
+</ul>
+</ul>
+&nbsp;
 <h2>version 5.22.7B</h2>
 &nbsp;
 <ul>
