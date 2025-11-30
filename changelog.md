@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.9B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-nx-ovloader.</li>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de DBI.</li>
+</ul>
+&nbsp;
 <h2>version 5.22.8B</h2>
 &nbsp;
 <ul>
