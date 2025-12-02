@@ -1,6 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
-<h2>version 5.22.9B</h2>
+<h2>version 5.22.11B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.01 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug introduit dans la version 7.11.00 dans le payload traitant le redémarrage après installation du pack ou d'un firmware qui pouvait faire redémarrer la console sur le payload en boucle.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.22.10B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.00 apportant les changements suivants:
