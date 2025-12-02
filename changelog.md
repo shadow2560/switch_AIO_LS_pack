@@ -3,6 +3,16 @@
 <h2>version 5.22.9B</h2>
 &nbsp;
 <ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.00 apportant les changements suivants:
+<ul>
+<li>Intégration des fonctions du payload DowngradeFixer si le firmware est downgrader du firmware 21.0.0 ou supérieur vers un firmware inférieur, cela devrait automatiser complètement ce type de downgrade via l'application.</li>
+<li>Suppression de certaines copies de fichiers inutiles.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.22.9B</h2>
+&nbsp;
+<ul>
 <li>Mise à jour de Ultrahand-nx-ovloader.</li>
 <li>Mise à jour de Ultrahand-overlay.</li>
 <li>Mise à jour de DBI.</li>
