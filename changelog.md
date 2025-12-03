@@ -4,6 +4,7 @@
 &nbsp;
 <ul>
 <li>Mise à jour de Hekate.</li>
+<li>Mise à jour de JKSV.</li>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.02 apportant les changements suivants:
 <ul>
 <li>Correction d'un possible bug qui ferait que le fix du downgrade 21.0.0+ vers un firmware inférieur ne fonctionnerait pas.</li>
