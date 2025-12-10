@@ -33,7 +33,7 @@ prepare_paths = {
 }
 
 checkIfImportantSave = {
-	importantSaves = ["8000000000000120", "80000000000000d1", "8000000000000047"]
+	importantSaves = ["8000000000000000", "8000000000000120", "80000000000000d1", "8000000000000047", "8000000000000053"]
 	j = 0
 	important = 0
 	while (j < importantSaves.len()){

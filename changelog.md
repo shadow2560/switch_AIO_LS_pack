@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.13B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 21.1.0.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Réintégration du homebrew SimpleModDdownloader.</li>
+</ul>
+&nbsp;
 <h2>version 5.22.12B</h2>
 &nbsp;
 <ul>
