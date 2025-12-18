@@ -3,6 +3,16 @@
 <h2>version 5.22.13B</h2>
 &nbsp;
 <ul>
+<li>Mise à jour de EdiZon-overlay.</li>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de DBI.</li>
+<li>Réintégration de NXMP.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+</ul>
+&nbsp;
+<h2>version 5.22.13B</h2>
+&nbsp;
+<ul>
 <li>Dernier firmware compatible mis à jour en version 21.1.0.</li>
 <li>Mise à jour d'Atmosphere.</li>
 <li>Réintégration du homebrew SimpleModDdownloader.</li>
