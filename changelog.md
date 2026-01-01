@@ -1,6 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
-<h2>version 5.22.13B</h2>
+<h2>version 5.22.15B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Goldleaf.</li>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.03 apportant les changements suivants:
+<ul>
+<li>Le fix du downgrade 21.0.0+ vers un firmware inférieur devrait fonctionner sur toutes les configs.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.22.14B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour de EdiZon-overlay.</li>
