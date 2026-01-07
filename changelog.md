@@ -1,11 +1,21 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.22.17B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.05 apportant les changements suivants:
+<ul>
+<li>Stabilisation du payload permettant le nettoyage après installation du pack ou le fix du downgrade du firmware 21.0.0+ vers un firmware inférieur.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.22.16B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.04 apportant les changements suivants:
 <ul>
 <li>Stabilisation du payload permettant le nettoyage après installation du pack ou le fix du downgrade du firmware 21.0.0+ vers un firmware inférieur.</li>
+<li>La réinitialisation ne tentera plus de supprimer le dossier "Nintendo" lié à la nand sur la SD car cela ne fonctionne pas bien en l'état.</li>
 </ul></li>
 </ul>
 &nbsp;
