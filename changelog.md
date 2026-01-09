@@ -11,7 +11,7 @@
 <li>Le script TegraExplorer "shadow256_utilitaires" contient une fonction permettant de fixer le downgrade du firmware 21.0.0+ à un firmware inférieur sur la nand souhaitée (emunand ou sysnand selon la nand de travail sélectionnée dans le script avant de lancer la fonction).</li>
 <li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
 <li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
-<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.06 apportant les changements suivants:
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.07 apportant les changements suivants:
 <ul>
 <li>Compilé avec la dernière version de la Libnx.</li>
 <li>Les accents seront correctement affichés, globalement grâce à la version modifiée de [la Libnx effectuée par Polonx](https://github.com/PoloNX/libnx/) avec laquelle le projet a été compilée.</li>
