@@ -1,5 +1,40 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.23.0</h2>
+&nbsp;
+<ul>
+<li>Ajout du payload LockSmith-RCM.</li>
+<li>Suppression des payloads DowngradeFixer, Lockpick-RCM et ProdinfoGen car remplacés par LockSmith-RCM.</li>
+<li>Dernier firmware compatible mis à jour en 21.1.0.</li>
+<li>Tous les homebrews/modules/overlays/payloads du pack ont été mis à jour vers la dernière version de ceux-ci pour à minima suporter le changement introduit par le firmware 21.0.0 et donc Atmosphere 1.10.0, ceci concerne donc la majorité des éléments du pack.</li>
+<li>Mise à jour de DBI, sera maintenant en russe, pour accéder au mode MTP il suffit d'appuyer sur la touche "X" sur le menu principal du homebrew.</li>
+<li>Le script TegraExplorer "shadow256_utilitaires" contient une fonction permettant de fixer le downgrade du firmware 21.0.0+ à un firmware inférieur sur la nand souhaitée (emunand ou sysnand selon la nand de travail sélectionnée dans le script avant de lancer la fonction).</li>
+<li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.06 apportant les changements suivants:
+<ul>
+<li>Compilé avec la dernière version de la Libnx.</li>
+<li>Les accents seront correctement affichés, globalement grâce à la version modifiée de [la Libnx effectuée par Polonx](https://github.com/PoloNX/libnx/) avec laquelle le projet a été compilée.</li>
+<li>Utilise LockSmith-RCM pour faire le nettoyage des fichiers après installation du pack ou pour effectuer le fix du downgrade des firmwares 21.0.0 ou supérieurs vers un firmware inférieur si nécessaire (vous devez utiliser la fonction de mise à jour du firmware intégrée au homebrew pour que ceci fonctionne automatiquement).</li>
+<li>La réinitialisation ne tentera plus de supprimer le dossier "Nintendo" lié à la nand sur la SD car cela ne fonctionne pas bien en l'état.</li>
+<li>Suppression de certaines copies de fichiers inutiles.</li>
+<li>Un avertissement aura lieu si le firmware actuel est un firmware au moins égal au firmware 21.0.0 lorsqu'un firmware inférieur au firmware 21.0.0 tentera d'être installé, permettant d'annuler l'installation de celui-ci. Attention cependant, si une installation du pack et du firmware sont faites ensemble, le firmware n'étant installé qu'à la fin le pack sera tout de même installé et donc ne sera probablement pas compatible avec la version du firmware gardée.</li>
+<li>Dans la fonction permettant de mettre à jour le firmware uniquement, le thème, le nettoyage agressif et le nettoyage des modules ne seront pas faits si le firmware ne s'installe pas.</li>
+<li>En cas d'erreur durant l'installation du firmware, les services liés à cette fonctionnalité sont quittés correctement.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.22.18B</h2>
+&nbsp;
+<ul>
+<li>Ajout du payload LockSmith-RCM.</li>
+<li>Suppression des payloads DowngradeFixer, Lockpick-RCM et ProdinfoGen car remplacés par LockSmith-RCM.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.06 apportant les changements suivants:
+<ul>
+<li>Stabilisation du payload permettant le nettoyage après installation du pack ou le fix du downgrade du firmware 21.0.0+ vers un firmware inférieur.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.22.17B</h2>
 &nbsp;
 <ul>
