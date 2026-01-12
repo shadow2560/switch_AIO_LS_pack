@@ -16,6 +16,7 @@
 <li>Compilé avec la dernière version de la Libnx.</li>
 <li>Les accents seront correctement affichés, globalement grâce à la version modifiée de [la Libnx effectuée par Polonx](https://github.com/PoloNX/libnx/) avec laquelle le projet a été compilée.</li>
 <li>Utilise LockSmith-RCM pour faire le nettoyage des fichiers après installation du pack ou pour effectuer le fix du downgrade des firmwares 21.0.0 ou supérieurs vers un firmware inférieur si nécessaire (vous devez utiliser la fonction de mise à jour du firmware intégrée au homebrew pour que ceci fonctionne automatiquement).</li>
+<li>Changement d'adresse pour télécharger le pack stable.</li>
 <li>La réinitialisation ne tentera plus de supprimer le dossier "Nintendo" lié à la nand sur la SD car cela ne fonctionne pas bien en l'état.</li>
 <li>Suppression de certaines copies de fichiers inutiles.</li>
 <li>Un avertissement aura lieu si le firmware actuel est un firmware au moins égal au firmware 21.0.0 lorsqu'un firmware inférieur au firmware 21.0.0 tentera d'être installé, permettant d'annuler l'installation de celui-ci. Attention cependant, si une installation du pack et du firmware sont faites ensemble, le firmware n'étant installé qu'à la fin le pack sera tout de même installé et donc ne sera probablement pas compatible avec la version du firmware gardée.</li>
