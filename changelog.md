@@ -1,5 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en 21.2.0.</li>
+<li>Mise à jour d'Atmosphere, de Sys-patch, de Ultrahand-overlay  et de LockSmith-RCM vers la dernière version de ceux-ci.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.09 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug mineur dans le payload gérant le nettoyage et le downgrade fix.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.23.0</h2>
 &nbsp;
 <ul>
@@ -11,7 +23,7 @@
 <li>Le script TegraExplorer "shadow256_utilitaires" contient une fonction permettant de fixer le downgrade du firmware 21.0.0+ à un firmware inférieur sur la nand souhaitée (emunand ou sysnand selon la nand de travail sélectionnée dans le script avant de lancer la fonction).</li>
 <li>Mise à jour des patches utilisés pour le logo de démarrage.</li>
 <li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
-<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.07 apportant les changements suivants:
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.11.08 apportant les changements suivants:
 <ul>
 <li>Compilé avec la dernière version de la Libnx.</li>
 <li>Les accents seront correctement affichés, globalement grâce à la version modifiée de [la Libnx effectuée par Polonx](https://github.com/PoloNX/libnx/) avec laquelle le projet a été compilée.</li>
