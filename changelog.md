@@ -1,5 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.1</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Hekate vers la dernière version de celui-ci.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.12.00 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug critique qui empêchait le nettoyage après l'installation du firmware dans la fonction permettant d'installer juste celui-ci et qui faisait crasher le homebrew.</li>
+<li>Les caractères devraient être échappés correctement dans les traductions venant d'un fichier ini, améliorant l'affichage de certains messages.</li>
+<li>Correction de potentielles fuites de mémoire.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.24.0</h2>
 &nbsp;
 <ul>
