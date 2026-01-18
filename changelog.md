@@ -3,6 +3,7 @@
 <h2>version 5.24.1</h2>
 &nbsp;
 <ul>
+<li>Mise à jour du script de nettoyage pour Linux et Mac, il ne fonctionnait pas avant.</li>
 <li>Mise à jour de Hekate vers la dernière version de celui-ci.</li>
 <li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.12.00 apportant les changements suivants:
 <ul>
