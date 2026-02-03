@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.3</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de LockSmith-RCM.</li>
+</ul>
+&nbsp;
 <h2>version 5.24.2</h2>
 &nbsp;
 <ul>
