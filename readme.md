@@ -46,6 +46,7 @@ Ce pack fonctionne pour tous les modèles de Switch.
 <ul>
 <li><a target="_blank" href="https://github.com/shadow2560/AIO_LS_pack_Updater">AIO_LS_pack_Updater</a></li>
 <li><a target="_blank" href="https://github.com/HamletDuFromage/AIO-switch-updater">AIO-switch-updater</a></li>
+<li><a target="_blank" href="https://github.com/luketanti/CyberFoil">Cyberfwal</a></li>
 <li><a target="_blank" href="https://github.com/rashevskyv/switch">DBI, part of Kefir project</a></li>
 <li><a target="_blank" href="https://github.com/XorTroll/Goldleaf">Goldleaf</a></li>
 <li><a target="_blank" href="https://github.com/StarDustCFW/Haku33/">Haku33</a></li>

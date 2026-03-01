@@ -1,5 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.4</h2>
+&nbsp;
+<ul>
+<li>Ajout du homebrew Cyberfwal.</li>
+<li>Mise à jour de Sys-patch, de DBI, de Ultrahand-overlay, de SimpleModManager  et de NXDumpTool.</li>
+<li>Correction d'un bug dans le script TegraExplorer shadow256_utilitaires.te qui faisait que le débrickage sans suppression de données ne fonctionnait pas correctement.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.12.01 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug qui faisait que le lancement depuis un autre androit que le dossier "switch/AIO_LS_pack_Updater" ne fonctionnait pas.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.24.3</h2>
 &nbsp;
 <ul>

@@ -915,7 +915,15 @@ restore_system_partition = {
 		delfile("bis:/PRF2SAFE.RCV")
 	}
 	copydir(SYSTEM_Contents_path, "bis:/")
+		RESULT = fsexists("bis:/save/0000000000000000")
+	if (RESULT){
+		movefile("bis:/save/0000000000000000", "bis:/0000000000000000")
+	}
 	copydir(SYSTEM_save_path, "bis:/")
+		RESULT = fsexists("bis:/0000000000000000")
+	if (RESULT){
+		movefile("bis:/0000000000000000", "bis:/save/0000000000000000")
+	}
 }
 
 restore_user_partition = {
