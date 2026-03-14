@@ -1,5 +1,10 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.5B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de DBI et de Ultrahand-overlay.</li>
+</ul>
 <h2>version 5.24.4</h2>
 &nbsp;
 <ul>
