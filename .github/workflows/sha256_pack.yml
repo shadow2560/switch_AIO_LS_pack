@@ -11,8 +11,7 @@ jobs:
     name: sha256
     runs-on: ubuntu-latest
     steps:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Create nro sha256
         run: |
           git pull
