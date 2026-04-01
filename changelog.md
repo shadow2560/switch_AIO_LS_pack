@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.24.8B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Hekate et de Cyberfwal.</li>
+</ul>
+&nbsp;
 <h2>version 5.24.7B</h2>
 &nbsp;
 <ul>
