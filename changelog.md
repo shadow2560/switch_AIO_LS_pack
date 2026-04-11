@@ -1,5 +1,14 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.0</h2>
+&nbsp;
+<ul>
+<li>Suppression des logos et thèmes personnalisés, seul les icônes pour les configs de Hekate restent inchangés. Attention, si vous avez déjà les logos en place (ancienne version du pack) ils s'afficheront toujours, il faudra les supprimer vous-même de la SD ou via le homebrew AIO_LS_pack_Updater.</li>
+<li>Dernier firmware compatible mis à jour en version 22.1.0.</li>
+<li>Mise à jour d'Atmosphere, de Hekate, de Sys-patch, de LockSmith-RCM, de Cyberfwal, de DBI et de Ultrahand-overlay vers la dernière version de ceux-ci.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+</ul>
+&nbsp;
 <h2>version 5.24.9B</h2>
 &nbsp;
 <ul>
