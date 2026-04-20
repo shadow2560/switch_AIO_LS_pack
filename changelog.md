@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.2B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Cyberfoil.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.1B</h2>
 &nbsp;
 <ul>
