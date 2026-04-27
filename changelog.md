@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.4B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de EdiZon-overlay.</li>
+<li>Mise à jour de NXDumpTool.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.3B</h2>
 &nbsp;
 <ul>
