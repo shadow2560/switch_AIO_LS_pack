@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.5B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de LockSmith-RCM.</li>
+<li>Mise à jour de DBI.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.4B</h2>
 &nbsp;
 <ul>
