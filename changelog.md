@@ -1,5 +1,13 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.6B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sys-patch.</li>
+<li>Mise à jour de NX-ovlloader.</li>
+<li>Mise à jour de Status-monitor-overlay.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.5B</h2>
 &nbsp;
 <ul>
