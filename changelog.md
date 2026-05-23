@@ -1,10 +1,18 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.7B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-nx-ovloader.</li>
+<li>Mise à jour de Ultrahand-overlay.</li>
+<li>Mise à jour de Status-monitor-overlay.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.6B</h2>
 &nbsp;
 <ul>
 <li>Mise à jour de Sys-patch.</li>
-<li>Mise à jour de NX-ovlloader.</li>
+<li>Mise à jour de Ultrahand-nx-ovloader.</li>
 <li>Mise à jour de Status-monitor-overlay.</li>
 </ul>
 &nbsp;
