@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.25.9B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Cyberfoil.</li>
+<li>Mise à jour de LockSmith-RCM.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.8B</h2>
 &nbsp;
 <ul>
