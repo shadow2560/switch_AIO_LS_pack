@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.26.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 22.5.0.</li>
+<li>Mise à jour d'Atmosphere, de Hekate, de Sys-patch, de LockSmith-RCM, de Ultrahand-nx-ovloader, de Ultrahand-overlay, de Cyberfoil, de DBI, de NXThemeInstaller, de Status-monitor-overlay, de EdiZon-overlay et de NXDumpTool vers la dernière version de ceux-ci.</li>
+</ul>
+&nbsp;
 <h2>version 5.25.10B</h2>
 &nbsp;
 <ul>
