@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.26.1</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sys-patch et de DBI vers la dernière version de ceux-ci.</li>
+<li>Mise à jour des fichiers de patches pour NXThemesInstaller.</li>
+</ul>
+&nbsp;
 <h2>version 5.26.0</h2>
 &nbsp;
 <ul>
