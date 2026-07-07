@@ -1,5 +1,12 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.26.2</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Ultrahand-overlay vers la dernière version de celui-ci.</li>
+<li>L'archive bit qui s'était glissé par erreur sur certains fichiers/dossiers a été retiré, si vous constatez encore des soucis comme des homebrews n'apparaissant pas utilisez l'option "Fix archive bit" de Hekate.</li>
+</ul>
+&nbsp;
 <h2>version 5.26.1</h2>
 &nbsp;
 <ul>
