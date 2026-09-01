@@ -1,5 +1,15 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.26.4B</h2>
+&nbsp;
+<ul>
+<li>Ajout de Checkpoint.</li>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour de NXThemeInstaller.</li>
+<li>Mise à jour de NXDumpTool.</li>
+<li>Mise à jour de CyberFoil.</li>
+</ul>
+&nbsp;
 <h2>version 5.26.3B</h2>
 &nbsp;
 <ul>
