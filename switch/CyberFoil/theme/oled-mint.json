@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "OLED Mint",
+  "colors": {
+    "background": "#000000",
+    "header": "#000000FF",
+    "footer": "#000000FF",
+    "panel": "#101916FF",
+    "text": "#E7FFF5FF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#9BBBADFF",
+    "accent": "#52E0A5FF",
+    "highlight": "#174C38FF",
+    "scrollbar": "#52E0A580",
+    "progress_track": "#172820FF"
+  },
+  "images": {
+    "background": ""
+  }
+}

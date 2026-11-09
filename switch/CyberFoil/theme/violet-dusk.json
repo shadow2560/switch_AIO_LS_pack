@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "Violet Dusk",
+  "colors": {
+    "background": "#181124",
+    "header": "#100B1BFF",
+    "footer": "#100B1BE6",
+    "panel": "#2B1D3EFF",
+    "text": "#F3ECFFFF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#BDA8D7FF",
+    "accent": "#BE91FFFF",
+    "highlight": "#58387FFF",
+    "scrollbar": "#BE91FF80",
+    "progress_track": "#3C2A51FF"
+  },
+  "images": {
+    "background": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "Midnight Blue",
+  "colors": {
+    "background": "#101827",
+    "header": "#0B1220FF",
+    "footer": "#0B1220E6",
+    "panel": "#17243BFF",
+    "text": "#EAF2FFFF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#A8B9D4FF",
+    "accent": "#56A8FFFF",
+    "highlight": "#245F9DCC",
+    "scrollbar": "#56A8FF80",
+    "progress_track": "#24344AFF"
+  },
+  "images": {
+    "background": ""
+  }
+}

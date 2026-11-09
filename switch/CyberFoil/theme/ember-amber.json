@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "Ember Amber",
+  "colors": {
+    "background": "#21150F",
+    "header": "#170E09FF",
+    "footer": "#170E09E6",
+    "panel": "#352319FF",
+    "text": "#FFF3E3FF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#D1B59AFF",
+    "accent": "#FFB454FF",
+    "highlight": "#684323FF",
+    "scrollbar": "#FFB45480",
+    "progress_track": "#493322FF"
+  },
+  "images": {
+    "background": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "Crimson Night",
+  "colors": {
+    "background": "#1A090D",
+    "header": "#100508FF",
+    "footer": "#100508E6",
+    "panel": "#321219FF",
+    "text": "#FFF0F2FF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#D2A1AAFF",
+    "accent": "#FF4D67FF",
+    "highlight": "#8F243BFF",
+    "scrollbar": "#FF4D6780",
+    "progress_track": "#4A1B25FF"
+  },
+  "images": {
+    "background": ""
+  }
+}

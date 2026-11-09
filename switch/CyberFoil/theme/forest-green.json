@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "name": "Forest Green",
+  "colors": {
+    "background": "#101C16",
+    "header": "#0A140FFF",
+    "footer": "#0A140FE6",
+    "panel": "#1C3024FF",
+    "text": "#ECF6EFFF",
+    "selected_text": "#FFFFFFFF",
+    "muted_text": "#ABC5AFFF",
+    "accent": "#8BD46FFF",
+    "highlight": "#355A2BFF",
+    "scrollbar": "#8BD46F80",
+    "progress_track": "#293F2EFF"
+  },
+  "images": {
+    "background": ""
+  }
+}
