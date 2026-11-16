@@ -1,9 +1,31 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.27.0</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 23.5.0.</li>
+<li>Ajout de Checkpoint.</li>
+<li>Mise à jour d'Atmosphere, de Hekate, de LockSmith-RCM, de Sys-patch, de Ultrahand-nx-ovloader, de Ultrahand-overlay, de Sphaira, de Cyberfoil, de DBI, de NXDumpTool et de NXThemeInstaller dans la dernière version de ceux-ci.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.13.01 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug de lancement avec Sphaira qui déclenchait la procédure de protection du homebrew contre un lancement depuis un mauvais endroit.</li>
+<li>Ajout d'un lecteur d'écran.</li>
+<li>corrections d'autres bugs mineurs.</li>
+</ul></li>
+</ul>
+&nbsp;
+<h2>version 5.26.8B</h2>
+&nbsp;
+<ul>
+<li>Dernier firmware compatible mis à jour en version 23.5.0.</li>
+<li>Mise à jour d'Atmosphere.</li>
+<li>Mise à jour de Hekate.</li>
+</ul>
+&nbsp;
 <h2>version 5.26.7B</h2>
 &nbsp;
 <ul>
-<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.13.00 apportant les changements suivants:
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.13.01 apportant les changements suivants:
 <ul>
 <li>Correction d'un bug de lancement avec Sphaira qui déclenchait la procédure de protection du homebrew contre un lancement depuis un mauvais endroit.</li>
 <li>Ajout d'un lecteur d'écran.</li>
