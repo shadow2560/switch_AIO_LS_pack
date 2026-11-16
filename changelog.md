@@ -1,5 +1,11 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.27.1</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de LockSmith-RCM, c'est une mise à jour critique à faire absolument si vous êtes en version 5.27.0.</li>
+</ul>
+&nbsp;
 <h2>version 5.27.0</h2>
 &nbsp;
 <ul>
