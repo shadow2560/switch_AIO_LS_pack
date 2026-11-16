@@ -1,5 +1,16 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.26.7B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.13.00 apportant les changements suivants:
+<ul>
+<li>Correction d'un bug de lancement avec Sphaira qui déclenchait la procédure de protection du homebrew contre un lancement depuis un mauvais endroit.</li>
+<li>Ajout d'un lecteur d'écran.</li>
+<li>corrections d'autres bugs mineurs.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.26.6B</h2>
 &nbsp;
 <ul>
