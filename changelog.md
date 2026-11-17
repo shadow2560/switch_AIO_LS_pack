@@ -1,5 +1,17 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.27.2B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour de Sphaira.</li>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.14.00 apportant les changements suivants:
+<ul>
+<li>Correction d'un crash qui survenait pendant l'installation d'un firmware avec le lecteur d'écran activé.</li>
+<li>Ajout de possibilités de debug pour simplifier de possibles futurs recherches.</li>
+<li>corrections d'autres bugs mineurs.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.27.1</h2>
 &nbsp;
 <ul>
