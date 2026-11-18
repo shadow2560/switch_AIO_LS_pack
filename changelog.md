@@ -1,5 +1,26 @@
 <h1>Changelog du pack switch_AIO_LS_pack</h1>
 &nbsp;
+<h2>version 5.27.3B</h2>
+&nbsp;
+<ul>
+<li>Mise à jour du homebrew AIO_LS_pack_Updater en version 7.15.00 apportant les changements suivants:
+<ul>
+<li>Mise à jour de la Libnx embarquée.</li>
+<li>Mise à jour du Espeak-ng embarqué.</li>
+<li>Le calcul du sha256 du pack et du homebrew lors de la mise à jour est nettement plus rapide qu'avant.</li>
+<li>Correction de certaines traductions.</li>
+<li>Le journal de debug n'est plus supprimé à chaque démarrage du homebrew pour pouvoir conserver plusieurs sessions dans les logs (4 MB max pour le fichier, au-delà il est réinitialisé au prochain démarrage du homebrew).</li>
+<li>Les données du dossier "romfs/espeak-ng-data" ont été réduite au maximum en embarquant uniquement les données nécessaires au homebrew pour réduire la taille final de celui-ci.</li>
+<li>Ajout d'un historique de console de 2000 lignes à la console des logs qui peut maintenant servir à la revue virtuelle du lecteur d'écran, pratique pour consulter le log d'installation du pack au complet par exemple.</li>
+<li>Nouveaux raccourcis ajoutés à la revue virtuelle du lecteur d'écran.</li>
+<li>La revue virtuelle du lecteur d'écran ne se ferme plus d'elle-même lors de la lecture d'une console vide.</li>
+<li>Vocalisation de certains éléments modifiés pour être plus instructifs sans être interrompus par d'autres messages.</li>
+<li>Le menu d'aide pour le lecteur d'écran utilise maintenant plusieurs variables comme le menu d'aide général pour éviter des lignes trop longues dans les fichiers ini de traduction.</li>
+<li>Les paramètres pour activer/désactiver certaines options de debug dans le code ont été centralisées.</li>
+<li>corrections d'autres bugs mineurs.</li>
+</ul></li>
+</ul>
+&nbsp;
 <h2>version 5.27.2B</h2>
 &nbsp;
 <ul>
